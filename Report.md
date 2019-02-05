@@ -22,13 +22,13 @@ Following structure was used for agent & critic:
 
 
 ## Hyperparameters
-+ Learning rate (actor): 0.0001
 + Learning rate (actor): 0.001
++ Learning rate (critic): 0.001
 + Discount factor (gamma): 0.99
 + Target network update frequency (target_update_frequency): 1000
 + Policy network update frequency (update_frequency): 4
 + Replay memory capacity (buffer_size): 100000
-+ Batch size (batch_size): 64
++ Batch size (batch_size): 256
 
 ## Performance
 > Agent achieves average score **30.0** over 100 episodes at 242 episode. 
