@@ -31,9 +31,7 @@ Following structure was used for agent & critic:
 + Batch size (batch_size): 256
 
 ## Performance
-> Agent achieves average score **30.0** over 100 episodes at 242 episode. 
-At this moment, training could be stopped, task finished.
-However, the learning continued and the mean score to end is 78.68.
+> Agent achieves average score **30.0** over 100 episodes at 125 episode. 
 
 ## Result 
 ![Result](result.png)
