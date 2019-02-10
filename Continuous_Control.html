@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-
-<title>Continuous_Control</title>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Continuous_Control</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
 
 <style type="text/css">
     /*!
@@ -204,6 +199,7 @@ th {
   *:before,
   *:after {
     background: transparent !important;
+    color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -6748,15 +6744,15 @@ button.close {
 *
 */
 /*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6813,19 +6809,6 @@ button.close {
   border: solid 0.08em #eee;
   border-radius: .1em;
 }
-.fa-pull-left {
-  float: left;
-}
-.fa-pull-right {
-  float: right;
-}
-.fa.fa-pull-left {
-  margin-right: .3em;
-}
-.fa.fa-pull-right {
-  margin-left: .3em;
-}
-/* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
 }
@@ -6841,10 +6824,6 @@ button.close {
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
-}
-.fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-  animation: fa-spin 1s infinite steps(8);
 }
 @-webkit-keyframes fa-spin {
   0% {
@@ -6867,31 +6846,31 @@ button.close {
   }
 }
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -7376,7 +7355,6 @@ button.close {
 .fa-twitter:before {
   content: "\f099";
 }
-.fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
 }
@@ -7389,7 +7367,6 @@ button.close {
 .fa-credit-card:before {
   content: "\f09d";
 }
-.fa-feed:before,
 .fa-rss:before {
   content: "\f09e";
 }
@@ -8027,8 +8004,7 @@ button.close {
 .fa-male:before {
   content: "\f183";
 }
-.fa-gittip:before,
-.fa-gratipay:before {
+.fa-gittip:before {
   content: "\f184";
 }
 .fa-sun-o:before {
@@ -8132,7 +8108,7 @@ button.close {
 .fa-digg:before {
   content: "\f1a6";
 }
-.fa-pied-piper-pp:before {
+.fa-pied-piper:before {
   content: "\f1a7";
 }
 .fa-pied-piper-alt:before {
@@ -8258,7 +8234,6 @@ button.close {
   content: "\f1ce";
 }
 .fa-ra:before,
-.fa-resistance:before,
 .fa-rebel:before {
   content: "\f1d0";
 }
@@ -8272,8 +8247,6 @@ button.close {
 .fa-git:before {
   content: "\f1d3";
 }
-.fa-y-combinator-square:before,
-.fa-yc-square:before,
 .fa-hacker-news:before {
   content: "\f1d4";
 }
@@ -8441,657 +8414,6 @@ button.close {
 }
 .fa-meanpath:before {
   content: "\f20c";
-}
-.fa-buysellads:before {
-  content: "\f20d";
-}
-.fa-connectdevelop:before {
-  content: "\f20e";
-}
-.fa-dashcube:before {
-  content: "\f210";
-}
-.fa-forumbee:before {
-  content: "\f211";
-}
-.fa-leanpub:before {
-  content: "\f212";
-}
-.fa-sellsy:before {
-  content: "\f213";
-}
-.fa-shirtsinbulk:before {
-  content: "\f214";
-}
-.fa-simplybuilt:before {
-  content: "\f215";
-}
-.fa-skyatlas:before {
-  content: "\f216";
-}
-.fa-cart-plus:before {
-  content: "\f217";
-}
-.fa-cart-arrow-down:before {
-  content: "\f218";
-}
-.fa-diamond:before {
-  content: "\f219";
-}
-.fa-ship:before {
-  content: "\f21a";
-}
-.fa-user-secret:before {
-  content: "\f21b";
-}
-.fa-motorcycle:before {
-  content: "\f21c";
-}
-.fa-street-view:before {
-  content: "\f21d";
-}
-.fa-heartbeat:before {
-  content: "\f21e";
-}
-.fa-venus:before {
-  content: "\f221";
-}
-.fa-mars:before {
-  content: "\f222";
-}
-.fa-mercury:before {
-  content: "\f223";
-}
-.fa-intersex:before,
-.fa-transgender:before {
-  content: "\f224";
-}
-.fa-transgender-alt:before {
-  content: "\f225";
-}
-.fa-venus-double:before {
-  content: "\f226";
-}
-.fa-mars-double:before {
-  content: "\f227";
-}
-.fa-venus-mars:before {
-  content: "\f228";
-}
-.fa-mars-stroke:before {
-  content: "\f229";
-}
-.fa-mars-stroke-v:before {
-  content: "\f22a";
-}
-.fa-mars-stroke-h:before {
-  content: "\f22b";
-}
-.fa-neuter:before {
-  content: "\f22c";
-}
-.fa-genderless:before {
-  content: "\f22d";
-}
-.fa-facebook-official:before {
-  content: "\f230";
-}
-.fa-pinterest-p:before {
-  content: "\f231";
-}
-.fa-whatsapp:before {
-  content: "\f232";
-}
-.fa-server:before {
-  content: "\f233";
-}
-.fa-user-plus:before {
-  content: "\f234";
-}
-.fa-user-times:before {
-  content: "\f235";
-}
-.fa-hotel:before,
-.fa-bed:before {
-  content: "\f236";
-}
-.fa-viacoin:before {
-  content: "\f237";
-}
-.fa-train:before {
-  content: "\f238";
-}
-.fa-subway:before {
-  content: "\f239";
-}
-.fa-medium:before {
-  content: "\f23a";
-}
-.fa-yc:before,
-.fa-y-combinator:before {
-  content: "\f23b";
-}
-.fa-optin-monster:before {
-  content: "\f23c";
-}
-.fa-opencart:before {
-  content: "\f23d";
-}
-.fa-expeditedssl:before {
-  content: "\f23e";
-}
-.fa-battery-4:before,
-.fa-battery:before,
-.fa-battery-full:before {
-  content: "\f240";
-}
-.fa-battery-3:before,
-.fa-battery-three-quarters:before {
-  content: "\f241";
-}
-.fa-battery-2:before,
-.fa-battery-half:before {
-  content: "\f242";
-}
-.fa-battery-1:before,
-.fa-battery-quarter:before {
-  content: "\f243";
-}
-.fa-battery-0:before,
-.fa-battery-empty:before {
-  content: "\f244";
-}
-.fa-mouse-pointer:before {
-  content: "\f245";
-}
-.fa-i-cursor:before {
-  content: "\f246";
-}
-.fa-object-group:before {
-  content: "\f247";
-}
-.fa-object-ungroup:before {
-  content: "\f248";
-}
-.fa-sticky-note:before {
-  content: "\f249";
-}
-.fa-sticky-note-o:before {
-  content: "\f24a";
-}
-.fa-cc-jcb:before {
-  content: "\f24b";
-}
-.fa-cc-diners-club:before {
-  content: "\f24c";
-}
-.fa-clone:before {
-  content: "\f24d";
-}
-.fa-balance-scale:before {
-  content: "\f24e";
-}
-.fa-hourglass-o:before {
-  content: "\f250";
-}
-.fa-hourglass-1:before,
-.fa-hourglass-start:before {
-  content: "\f251";
-}
-.fa-hourglass-2:before,
-.fa-hourglass-half:before {
-  content: "\f252";
-}
-.fa-hourglass-3:before,
-.fa-hourglass-end:before {
-  content: "\f253";
-}
-.fa-hourglass:before {
-  content: "\f254";
-}
-.fa-hand-grab-o:before,
-.fa-hand-rock-o:before {
-  content: "\f255";
-}
-.fa-hand-stop-o:before,
-.fa-hand-paper-o:before {
-  content: "\f256";
-}
-.fa-hand-scissors-o:before {
-  content: "\f257";
-}
-.fa-hand-lizard-o:before {
-  content: "\f258";
-}
-.fa-hand-spock-o:before {
-  content: "\f259";
-}
-.fa-hand-pointer-o:before {
-  content: "\f25a";
-}
-.fa-hand-peace-o:before {
-  content: "\f25b";
-}
-.fa-trademark:before {
-  content: "\f25c";
-}
-.fa-registered:before {
-  content: "\f25d";
-}
-.fa-creative-commons:before {
-  content: "\f25e";
-}
-.fa-gg:before {
-  content: "\f260";
-}
-.fa-gg-circle:before {
-  content: "\f261";
-}
-.fa-tripadvisor:before {
-  content: "\f262";
-}
-.fa-odnoklassniki:before {
-  content: "\f263";
-}
-.fa-odnoklassniki-square:before {
-  content: "\f264";
-}
-.fa-get-pocket:before {
-  content: "\f265";
-}
-.fa-wikipedia-w:before {
-  content: "\f266";
-}
-.fa-safari:before {
-  content: "\f267";
-}
-.fa-chrome:before {
-  content: "\f268";
-}
-.fa-firefox:before {
-  content: "\f269";
-}
-.fa-opera:before {
-  content: "\f26a";
-}
-.fa-internet-explorer:before {
-  content: "\f26b";
-}
-.fa-tv:before,
-.fa-television:before {
-  content: "\f26c";
-}
-.fa-contao:before {
-  content: "\f26d";
-}
-.fa-500px:before {
-  content: "\f26e";
-}
-.fa-amazon:before {
-  content: "\f270";
-}
-.fa-calendar-plus-o:before {
-  content: "\f271";
-}
-.fa-calendar-minus-o:before {
-  content: "\f272";
-}
-.fa-calendar-times-o:before {
-  content: "\f273";
-}
-.fa-calendar-check-o:before {
-  content: "\f274";
-}
-.fa-industry:before {
-  content: "\f275";
-}
-.fa-map-pin:before {
-  content: "\f276";
-}
-.fa-map-signs:before {
-  content: "\f277";
-}
-.fa-map-o:before {
-  content: "\f278";
-}
-.fa-map:before {
-  content: "\f279";
-}
-.fa-commenting:before {
-  content: "\f27a";
-}
-.fa-commenting-o:before {
-  content: "\f27b";
-}
-.fa-houzz:before {
-  content: "\f27c";
-}
-.fa-vimeo:before {
-  content: "\f27d";
-}
-.fa-black-tie:before {
-  content: "\f27e";
-}
-.fa-fonticons:before {
-  content: "\f280";
-}
-.fa-reddit-alien:before {
-  content: "\f281";
-}
-.fa-edge:before {
-  content: "\f282";
-}
-.fa-credit-card-alt:before {
-  content: "\f283";
-}
-.fa-codiepie:before {
-  content: "\f284";
-}
-.fa-modx:before {
-  content: "\f285";
-}
-.fa-fort-awesome:before {
-  content: "\f286";
-}
-.fa-usb:before {
-  content: "\f287";
-}
-.fa-product-hunt:before {
-  content: "\f288";
-}
-.fa-mixcloud:before {
-  content: "\f289";
-}
-.fa-scribd:before {
-  content: "\f28a";
-}
-.fa-pause-circle:before {
-  content: "\f28b";
-}
-.fa-pause-circle-o:before {
-  content: "\f28c";
-}
-.fa-stop-circle:before {
-  content: "\f28d";
-}
-.fa-stop-circle-o:before {
-  content: "\f28e";
-}
-.fa-shopping-bag:before {
-  content: "\f290";
-}
-.fa-shopping-basket:before {
-  content: "\f291";
-}
-.fa-hashtag:before {
-  content: "\f292";
-}
-.fa-bluetooth:before {
-  content: "\f293";
-}
-.fa-bluetooth-b:before {
-  content: "\f294";
-}
-.fa-percent:before {
-  content: "\f295";
-}
-.fa-gitlab:before {
-  content: "\f296";
-}
-.fa-wpbeginner:before {
-  content: "\f297";
-}
-.fa-wpforms:before {
-  content: "\f298";
-}
-.fa-envira:before {
-  content: "\f299";
-}
-.fa-universal-access:before {
-  content: "\f29a";
-}
-.fa-wheelchair-alt:before {
-  content: "\f29b";
-}
-.fa-question-circle-o:before {
-  content: "\f29c";
-}
-.fa-blind:before {
-  content: "\f29d";
-}
-.fa-audio-description:before {
-  content: "\f29e";
-}
-.fa-volume-control-phone:before {
-  content: "\f2a0";
-}
-.fa-braille:before {
-  content: "\f2a1";
-}
-.fa-assistive-listening-systems:before {
-  content: "\f2a2";
-}
-.fa-asl-interpreting:before,
-.fa-american-sign-language-interpreting:before {
-  content: "\f2a3";
-}
-.fa-deafness:before,
-.fa-hard-of-hearing:before,
-.fa-deaf:before {
-  content: "\f2a4";
-}
-.fa-glide:before {
-  content: "\f2a5";
-}
-.fa-glide-g:before {
-  content: "\f2a6";
-}
-.fa-signing:before,
-.fa-sign-language:before {
-  content: "\f2a7";
-}
-.fa-low-vision:before {
-  content: "\f2a8";
-}
-.fa-viadeo:before {
-  content: "\f2a9";
-}
-.fa-viadeo-square:before {
-  content: "\f2aa";
-}
-.fa-snapchat:before {
-  content: "\f2ab";
-}
-.fa-snapchat-ghost:before {
-  content: "\f2ac";
-}
-.fa-snapchat-square:before {
-  content: "\f2ad";
-}
-.fa-pied-piper:before {
-  content: "\f2ae";
-}
-.fa-first-order:before {
-  content: "\f2b0";
-}
-.fa-yoast:before {
-  content: "\f2b1";
-}
-.fa-themeisle:before {
-  content: "\f2b2";
-}
-.fa-google-plus-circle:before,
-.fa-google-plus-official:before {
-  content: "\f2b3";
-}
-.fa-fa:before,
-.fa-font-awesome:before {
-  content: "\f2b4";
-}
-.fa-handshake-o:before {
-  content: "\f2b5";
-}
-.fa-envelope-open:before {
-  content: "\f2b6";
-}
-.fa-envelope-open-o:before {
-  content: "\f2b7";
-}
-.fa-linode:before {
-  content: "\f2b8";
-}
-.fa-address-book:before {
-  content: "\f2b9";
-}
-.fa-address-book-o:before {
-  content: "\f2ba";
-}
-.fa-vcard:before,
-.fa-address-card:before {
-  content: "\f2bb";
-}
-.fa-vcard-o:before,
-.fa-address-card-o:before {
-  content: "\f2bc";
-}
-.fa-user-circle:before {
-  content: "\f2bd";
-}
-.fa-user-circle-o:before {
-  content: "\f2be";
-}
-.fa-user-o:before {
-  content: "\f2c0";
-}
-.fa-id-badge:before {
-  content: "\f2c1";
-}
-.fa-drivers-license:before,
-.fa-id-card:before {
-  content: "\f2c2";
-}
-.fa-drivers-license-o:before,
-.fa-id-card-o:before {
-  content: "\f2c3";
-}
-.fa-quora:before {
-  content: "\f2c4";
-}
-.fa-free-code-camp:before {
-  content: "\f2c5";
-}
-.fa-telegram:before {
-  content: "\f2c6";
-}
-.fa-thermometer-4:before,
-.fa-thermometer:before,
-.fa-thermometer-full:before {
-  content: "\f2c7";
-}
-.fa-thermometer-3:before,
-.fa-thermometer-three-quarters:before {
-  content: "\f2c8";
-}
-.fa-thermometer-2:before,
-.fa-thermometer-half:before {
-  content: "\f2c9";
-}
-.fa-thermometer-1:before,
-.fa-thermometer-quarter:before {
-  content: "\f2ca";
-}
-.fa-thermometer-0:before,
-.fa-thermometer-empty:before {
-  content: "\f2cb";
-}
-.fa-shower:before {
-  content: "\f2cc";
-}
-.fa-bathtub:before,
-.fa-s15:before,
-.fa-bath:before {
-  content: "\f2cd";
-}
-.fa-podcast:before {
-  content: "\f2ce";
-}
-.fa-window-maximize:before {
-  content: "\f2d0";
-}
-.fa-window-minimize:before {
-  content: "\f2d1";
-}
-.fa-window-restore:before {
-  content: "\f2d2";
-}
-.fa-times-rectangle:before,
-.fa-window-close:before {
-  content: "\f2d3";
-}
-.fa-times-rectangle-o:before,
-.fa-window-close-o:before {
-  content: "\f2d4";
-}
-.fa-bandcamp:before {
-  content: "\f2d5";
-}
-.fa-grav:before {
-  content: "\f2d6";
-}
-.fa-etsy:before {
-  content: "\f2d7";
-}
-.fa-imdb:before {
-  content: "\f2d8";
-}
-.fa-ravelry:before {
-  content: "\f2d9";
-}
-.fa-eercast:before {
-  content: "\f2da";
-}
-.fa-microchip:before {
-  content: "\f2db";
-}
-.fa-snowflake-o:before {
-  content: "\f2dc";
-}
-.fa-superpowers:before {
-  content: "\f2dd";
-}
-.fa-wpexplorer:before {
-  content: "\f2de";
-}
-.fa-meetup:before {
-  content: "\f2e0";
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-}
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
 }
 /*!
 *
@@ -9372,10 +8694,6 @@ div.traceback-wrapper {
   max-width: 800px;
   margin: auto;
 }
-div.traceback-wrapper pre.traceback {
-  max-height: 600px;
-  overflow: auto;
-}
 /**
  * Primary styles
  *
@@ -9401,10 +8719,6 @@ body > #header {
   z-index: 100;
 }
 body > #header #header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
   box-sizing: border-box;
@@ -9436,16 +8750,13 @@ body > #header .header-bar {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+@media (max-width: 991px) {
+  #ipython_notebook {
+    margin-left: 10px;
+  }
+}
 [dir="rtl"] #ipython_notebook {
-  margin-right: 10px;
-  margin-left: 0;
-}
-[dir="rtl"] #ipython_notebook.pull-left {
   float: right !important;
-  float: right;
-}
-.flex-spacer {
-  flex: 1;
 }
 #noscript {
   width: auto;
@@ -9480,14 +8791,8 @@ body > #header .header-bar {
 input.ui-button {
   padding: 0.3em 0.9em;
 }
-span#kernel_logo_widget {
-  margin: 0 10px;
-}
 span#login_widget {
   float: right;
-}
-[dir="rtl"] span#login_widget {
-  float: left;
 }
 span#login_widget > .button,
 #logout {
@@ -9603,9 +8908,6 @@ span#login_widget > .button .badge,
   overflow: auto;
   flex: 1;
 }
-.modal-header {
-  cursor: move;
-}
 @media (min-width: 768px) {
   .modal .modal-dialog {
     width: 700px;
@@ -9626,19 +8928,6 @@ span#login_widget > .button .badge,
   display: inline-block;
   margin-bottom: -4px;
 }
-[dir="rtl"] .center-nav form.pull-left {
-  float: right !important;
-  float: right;
-}
-[dir="rtl"] .center-nav .navbar-text {
-  float: right;
-}
-[dir="rtl"] .navbar-inner {
-  text-align: right;
-}
-[dir="rtl"] div.text-left {
-  text-align: right;
-}
 /*!
 *
 * IPython tree view
@@ -9655,42 +8944,34 @@ span#login_widget > .button .badge,
   margin: 0;
 }
 .alternate_upload input.fileinput {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
   opacity: 0;
   z-index: 2;
-}
-.alternate_upload .btn-xs > input.fileinput {
-  margin: -1px -5px;
+  width: 12ex;
+  margin-right: -12ex;
 }
 .alternate_upload .btn-upload {
-  position: relative;
   height: 22px;
-}
-::-webkit-file-upload-button {
-  cursor: pointer;
 }
 /**
  * Primary styles
  *
  * Author: Jupyter Development Team
  */
+[dir="rtl"] #tabs li {
+  float: right;
+}
 ul#tabs {
   margin-bottom: 4px;
+}
+[dir="rtl"] ul#tabs {
+  margin-right: 0px;
 }
 ul#tabs a {
   padding-top: 6px;
   padding-bottom: 4px;
-}
-[dir="rtl"] ul#tabs.nav-tabs > li {
-  float: right;
-}
-[dir="rtl"] ul#tabs.nav.nav-tabs {
-  padding-right: 0;
 }
 ul.breadcrumb a:focus,
 ul.breadcrumb a:hover {
@@ -9710,13 +8991,15 @@ ul.breadcrumb span {
 .list_toolbar .tree-buttons {
   padding-top: 1px;
 }
-[dir="rtl"] .list_toolbar .tree-buttons .pull-right {
+[dir="rtl"] .list_toolbar .tree-buttons {
   float: left !important;
-  float: left;
 }
-[dir="rtl"] .list_toolbar .col-sm-4,
-[dir="rtl"] .list_toolbar .col-sm-8 {
-  float: right;
+[dir="rtl"] .list_toolbar .pull-right {
+  padding-top: 1px;
+  float: left !important;
+}
+[dir="rtl"] .list_toolbar .pull-left {
+  float: right !important;
 }
 .dynamic-buttons {
   padding-top: 3px;
@@ -9772,7 +9055,7 @@ ul.breadcrumb span {
 .list_item > div input {
   margin-right: 7px;
   margin-left: 14px;
-  vertical-align: text-bottom;
+  vertical-align: baseline;
   line-height: 22px;
   position: relative;
   top: -1px;
@@ -9782,9 +9065,6 @@ ul.breadcrumb span {
   margin-left: -1px;
   vertical-align: baseline;
   line-height: 22px;
-}
-[dir="rtl"] .list_item > div input {
-  margin-right: 0;
 }
 .new-file input[type=checkbox] {
   visibility: hidden;
@@ -9800,14 +9080,6 @@ ul.breadcrumb span {
   margin-left: 7px;
   line-height: 22px;
   vertical-align: baseline;
-}
-.item_modified {
-  margin-right: 7px;
-  margin-left: 7px;
-}
-[dir="rtl"] .item_modified.pull-right {
-  float: left !important;
-  float: left;
 }
 .item_buttons {
   line-height: 1em;
@@ -9836,14 +9108,6 @@ ul.breadcrumb span {
   margin-right: 7px;
   float: left;
 }
-[dir="rtl"] .item_buttons.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .item_buttons .kernel-name {
-  margin-left: 7px;
-  float: right;
-}
 .toolbar_info {
   height: 24px;
   line-height: 24px;
@@ -9869,32 +9133,18 @@ ul.breadcrumb span {
   background-color: transparent;
   font-weight: bold;
 }
-.sort_button {
-  display: inline-block;
-  padding-left: 7px;
-}
-[dir="rtl"] .sort_button.pull-right {
-  float: left !important;
-  float: left;
-}
 #tree-selector {
   padding-right: 0px;
+}
+[dir="rtl"] #tree-selector a {
+  float: right;
 }
 #button-select-all {
   min-width: 50px;
 }
-[dir="rtl"] #button-select-all.btn {
-  float: right ;
-}
 #select-all {
   margin-left: 7px;
   margin-right: 2px;
-  margin-top: 2px;
-  height: 16px;
-}
-[dir="rtl"] #select-all.pull-left {
-  float: right !important;
-  float: right;
 }
 .menu_icon {
   margin-right: 2px;
@@ -9912,12 +9162,6 @@ ul.breadcrumb span {
   -moz-osx-font-smoothing: grayscale;
   content: "\f114";
 }
-.folder_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.folder_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .folder_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9934,12 +9178,6 @@ ul.breadcrumb span {
   content: "\f02d";
   position: relative;
   top: -1px;
-}
-.notebook_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.notebook_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .notebook_icon:before.pull-left {
   margin-right: .3em;
@@ -9959,12 +9197,6 @@ ul.breadcrumb span {
   top: -1px;
   color: #5cb85c;
 }
-.running_notebook_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.running_notebook_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .running_notebook_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9982,12 +9214,6 @@ ul.breadcrumb span {
   position: relative;
   top: -2px;
 }
-.file_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.file_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .file_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -10002,11 +9228,8 @@ ul#new-menu {
   left: auto;
   right: 0;
 }
-#new-menu .dropdown-header {
-  font-size: 10px;
-  border-bottom: 1px solid #e5e5e5;
-  padding: 0 0 3px;
-  margin: -3px 20px 0;
+[dir="rtl"] #new-menu {
+  text-align: right;
 }
 .kernel-menu-icon {
   padding-right: 12px;
@@ -10053,6 +9276,9 @@ ul#new-menu {
 #running .panel-group .panel .panel-body .list_container .list_item:last-child {
   border-bottom: 0px;
 }
+[dir="rtl"] #running .col-sm-8 {
+  float: right !important;
+}
 .delete-button {
   display: none;
 }
@@ -10060,12 +9286,6 @@ ul#new-menu {
   display: none;
 }
 .rename-button {
-  display: none;
-}
-.move-button {
-  display: none;
-}
-.download-button {
   display: none;
 }
 .shutdown-button {
@@ -10108,12 +9328,6 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
-.dirty-indicator.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator.fa-pull-right {
-  margin-left: .3em;
-}
 .dirty-indicator.pull-left {
   margin-right: .3em;
 }
@@ -10128,12 +9342,6 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
-}
-.dirty-indicator-dirty.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-dirty.fa-pull-right {
-  margin-left: .3em;
 }
 .dirty-indicator-dirty.pull-left {
   margin-right: .3em;
@@ -10150,12 +9358,6 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
-.dirty-indicator-clean.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-clean.fa-pull-right {
-  margin-left: .3em;
-}
 .dirty-indicator-clean.pull-left {
   margin-right: .3em;
 }
@@ -10170,12 +9372,6 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f00c";
-}
-.dirty-indicator-clean:before.fa-pull-left {
-  margin-right: .3em;
-}
-.dirty-indicator-clean:before.fa-pull-right {
-  margin-left: .3em;
 }
 .dirty-indicator-clean:before.pull-left {
   margin-right: .3em;
@@ -10221,132 +9417,14 @@ ul#new-menu {
     box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
   }
 }
-.CodeMirror-dialog {
-  background-color: #fff;
-}
 /*!
 *
 * IPython notebook
 *
 */
-/* CSS font colors for translated ANSI escape sequences */
-/* The color values are a mix of
-   http://www.xcolors.net/dl/baskerville-ivorylight and
-   http://www.xcolors.net/dl/euphrasia */
-.ansi-black-fg {
-  color: #3E424D;
-}
-.ansi-black-bg {
-  background-color: #3E424D;
-}
-.ansi-black-intense-fg {
-  color: #282C36;
-}
-.ansi-black-intense-bg {
-  background-color: #282C36;
-}
-.ansi-red-fg {
-  color: #E75C58;
-}
-.ansi-red-bg {
-  background-color: #E75C58;
-}
-.ansi-red-intense-fg {
-  color: #B22B31;
-}
-.ansi-red-intense-bg {
-  background-color: #B22B31;
-}
-.ansi-green-fg {
-  color: #00A250;
-}
-.ansi-green-bg {
-  background-color: #00A250;
-}
-.ansi-green-intense-fg {
-  color: #007427;
-}
-.ansi-green-intense-bg {
-  background-color: #007427;
-}
-.ansi-yellow-fg {
-  color: #DDB62B;
-}
-.ansi-yellow-bg {
-  background-color: #DDB62B;
-}
-.ansi-yellow-intense-fg {
-  color: #B27D12;
-}
-.ansi-yellow-intense-bg {
-  background-color: #B27D12;
-}
-.ansi-blue-fg {
-  color: #208FFB;
-}
-.ansi-blue-bg {
-  background-color: #208FFB;
-}
-.ansi-blue-intense-fg {
-  color: #0065CA;
-}
-.ansi-blue-intense-bg {
-  background-color: #0065CA;
-}
-.ansi-magenta-fg {
-  color: #D160C4;
-}
-.ansi-magenta-bg {
-  background-color: #D160C4;
-}
-.ansi-magenta-intense-fg {
-  color: #A03196;
-}
-.ansi-magenta-intense-bg {
-  background-color: #A03196;
-}
-.ansi-cyan-fg {
-  color: #60C6C8;
-}
-.ansi-cyan-bg {
-  background-color: #60C6C8;
-}
-.ansi-cyan-intense-fg {
-  color: #258F8F;
-}
-.ansi-cyan-intense-bg {
-  background-color: #258F8F;
-}
-.ansi-white-fg {
-  color: #C5C1B4;
-}
-.ansi-white-bg {
-  background-color: #C5C1B4;
-}
-.ansi-white-intense-fg {
-  color: #A1A6B2;
-}
-.ansi-white-intense-bg {
-  background-color: #A1A6B2;
-}
-.ansi-default-inverse-fg {
-  color: #FFFFFF;
-}
-.ansi-default-inverse-bg {
-  background-color: #000000;
-}
-.ansi-bold {
-  font-weight: bold;
-}
-.ansi-underline {
-  text-decoration: underline;
-}
-/* The following styles are deprecated an will be removed in a future version */
+/* CSS font colors for translated ANSI colors. */
 .ansibold {
   font-weight: bold;
-}
-.ansi-inverse {
-  outline: 0.5px dotted;
 }
 /* use dark versions for foreground, to improve visibility */
 .ansiblack {
@@ -10425,20 +9503,12 @@ div.cell {
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
   outline: none;
-  position: relative;
-  overflow: visible;
-}
-div.cell:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: transparent;
+  border-left-width: 1px;
+  padding-left: 5px;
+  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
 }
 div.cell.jupyter-soft-selected {
+  border-left-color: #90CAF9;
   border-left-color: #E3F2FD;
   border-left-width: 1px;
   padding-left: 5px;
@@ -10451,39 +9521,27 @@ div.cell.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected,
-div.cell.selected.jupyter-soft-selected {
+div.cell.selected {
   border-color: #ababab;
-}
-div.cell.selected:before,
-div.cell.selected.jupyter-soft-selected:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: #42A5F5;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
 }
 @media print {
-  div.cell.selected,
-  div.cell.selected.jupyter-soft-selected {
+  div.cell.selected {
     border-color: transparent;
   }
 }
+div.cell.selected.jupyter-soft-selected {
+  border-left-width: 0;
+  padding-left: 6px;
+  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
+}
 .edit_mode div.cell.selected {
   border-color: #66BB6A;
-}
-.edit_mode div.cell.selected:before {
-  position: absolute;
-  display: block;
-  top: -1px;
-  left: -1px;
-  width: 5px;
-  height: calc(100% +  2px);
-  content: '';
-  background: #66BB6A;
+  border-left-width: 0px;
+  padding-left: 6px;
+  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -10679,9 +9737,7 @@ div.input_area > div.highlight > pre {
 .CodeMirror-lines {
   /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
-  /* Note that this should set vertical padding only, since CodeMirror assumes
-       that horizontal padding will be set on CodeMirror pre */
-  padding: 0.4em 0;
+  padding: 0.4em;
 }
 .CodeMirror-linenumber {
   padding: 0 8px 0 4px;
@@ -10691,24 +9747,11 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In CM3 this went to 4px from 0 in CM2. This sets horizontal padding only,
-    use .CodeMirror-lines for vertical */
-  padding: 0 0.4em;
+  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
+  /* .CodeMirror-lines */
+  padding: 0;
   border: 0;
   border-radius: 0;
-}
-.CodeMirror-cursor {
-  border-left: 1.4px solid black;
-}
-@media screen and (min-width: 2138px) and (max-width: 4319px) {
-  .CodeMirror-cursor {
-    border-left: 2px solid black;
-  }
-}
-@media screen and (min-width: 4320px) {
-  .CodeMirror-cursor {
-    border-left: 4px solid black;
-  }
 }
 /*
 
@@ -10962,9 +10005,6 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
-div.output_area .mglyph > img {
-  max-width: none;
-}
 /* This is needed to protect the pre formating from global settings such
    as that of bootstrap */
 .output {
@@ -11003,7 +10043,7 @@ div.output_area .mglyph > img {
 }
 div.output_area pre {
   margin: 0;
-  padding: 1px 0 1px 0;
+  padding: 0;
   border: 0;
   vertical-align: baseline;
   color: black;
@@ -11163,35 +10203,39 @@ div.output_unrecognized a:hover {
 .rendered_html h6:first-child {
   margin-top: 1em;
 }
-.rendered_html ul:not(.list-inline),
-.rendered_html ol:not(.list-inline) {
-  padding-left: 2em;
-}
 .rendered_html ul {
   list-style: disc;
+  margin: 0em 2em;
+  padding-left: 0px;
 }
 .rendered_html ul ul {
   list-style: square;
-  margin-top: 0;
+  margin: 0em 2em;
 }
 .rendered_html ul ul ul {
   list-style: circle;
+  margin: 0em 2em;
 }
 .rendered_html ol {
   list-style: decimal;
+  margin: 0em 2em;
+  padding-left: 0px;
 }
 .rendered_html ol ol {
   list-style: upper-alpha;
-  margin-top: 0;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol {
   list-style: lower-alpha;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol {
   list-style: lower-roman;
+  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol ol {
   list-style: decimal;
+  margin: 0em 2em;
 }
 .rendered_html * + ul {
   margin-top: 1em;
@@ -11205,23 +10249,14 @@ div.output_unrecognized a:hover {
 }
 .rendered_html pre {
   margin: 1em 2em;
-  padding: 0px;
-  background-color: #fff;
-}
-.rendered_html code {
-  background-color: #eff0f1;
-}
-.rendered_html p code {
-  padding: 1px 5px;
-}
-.rendered_html pre code {
-  background-color: #fff;
 }
 .rendered_html pre,
 .rendered_html code {
   border: 0;
+  background-color: #fff;
   color: #000;
   font-size: 100%;
+  padding: 0px;
 }
 .rendered_html blockquote {
   margin: 1em 2em;
@@ -11229,36 +10264,24 @@ div.output_unrecognized a:hover {
 .rendered_html table {
   margin-left: auto;
   margin-right: auto;
-  border: none;
+  border: 1px solid black;
   border-collapse: collapse;
-  border-spacing: 0;
-  color: black;
-  font-size: 12px;
-  table-layout: fixed;
-}
-.rendered_html thead {
-  border-bottom: 1px solid black;
-  vertical-align: bottom;
 }
 .rendered_html tr,
 .rendered_html th,
 .rendered_html td {
-  text-align: right;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 1em 2em;
+}
+.rendered_html td,
+.rendered_html th {
+  text-align: left;
   vertical-align: middle;
-  padding: 0.5em 0.5em;
-  line-height: normal;
-  white-space: normal;
-  max-width: none;
-  border: none;
+  padding: 4px;
 }
 .rendered_html th {
   font-weight: bold;
-}
-.rendered_html tbody tr:nth-child(odd) {
-  background: #f5f5f5;
-}
-.rendered_html tbody tr:hover {
-  background: rgba(66, 165, 245, 0.2);
 }
 .rendered_html * + table {
   margin-top: 1em;
@@ -11285,15 +10308,6 @@ div.output_unrecognized a:hover {
 .rendered_html img.unconfined,
 .rendered_html svg.unconfined {
   max-width: none;
-}
-.rendered_html .alert {
-  margin-bottom: initial;
-}
-.rendered_html * + .alert {
-  margin-top: 1em;
-}
-[dir="rtl"] .rendered_html p {
-  text-align: right;
 }
 div.text_cell {
   /* Old browsers */
@@ -11348,17 +10362,8 @@ h6:hover .anchor-link {
   overflow-x: auto;
   overflow-y: hidden;
 }
-.text_cell.rendered .rendered_html tr,
-.text_cell.rendered .rendered_html th,
-.text_cell.rendered .rendered_html td {
-  max-width: none;
-}
 .text_cell.unrendered .text_cell_render {
   display: none;
-}
-.text_cell .dropzone .input_area {
-  border: 2px dashed #bababa;
-  margin: -1px;
 }
 .cm-header-1,
 .cm-header-2,
@@ -11495,28 +10500,6 @@ kbd {
   padding-top: 1px;
   padding-bottom: 1px;
 }
-.jupyter-keybindings {
-  padding: 1px;
-  line-height: 24px;
-  border-bottom: 1px solid gray;
-}
-.jupyter-keybindings input {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.jupyter-keybindings i {
-  padding: 6px;
-}
-.well code {
-  background-color: #ffffff;
-  border-color: #ababab;
-  border-width: 1px;
-  border-style: solid;
-  padding: 2px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
 /* CSS for the cell toolbar */
 .celltoolbar {
   border: thin solid #CFCFCF;
@@ -11649,152 +10632,6 @@ select[multiple].celltoolbar select {
   margin-left: 5px;
   margin-right: 5px;
 }
-.tags_button_container {
-  width: 100%;
-  display: flex;
-}
-.tag-container {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  overflow: hidden;
-  position: relative;
-}
-.tag-container > * {
-  margin: 0 4px;
-}
-.remove-tag-btn {
-  margin-left: 4px;
-}
-.tags-input {
-  display: flex;
-}
-.cell-tag:last-child:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 40px;
-  height: 100%;
-  /* Fade to background color of cell toolbar */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #EEE);
-}
-.tags-input > * {
-  margin-left: 4px;
-}
-.cell-tag,
-.tags-input input,
-.tags-input button {
-  display: block;
-  width: 100%;
-  height: 32px;
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.42857143;
-  color: #555555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  height: 30px;
-  padding: 5px 10px;
-  font-size: 12px;
-  line-height: 1.5;
-  border-radius: 1px;
-  box-shadow: none;
-  width: inherit;
-  font-size: inherit;
-  height: 22px;
-  line-height: 22px;
-  padding: 0px 4px;
-  display: inline-block;
-}
-.cell-tag:focus,
-.tags-input input:focus,
-.tags-input button:focus {
-  border-color: #66afe9;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-}
-.cell-tag::-moz-placeholder,
-.tags-input input::-moz-placeholder,
-.tags-input button::-moz-placeholder {
-  color: #999;
-  opacity: 1;
-}
-.cell-tag:-ms-input-placeholder,
-.tags-input input:-ms-input-placeholder,
-.tags-input button:-ms-input-placeholder {
-  color: #999;
-}
-.cell-tag::-webkit-input-placeholder,
-.tags-input input::-webkit-input-placeholder,
-.tags-input button::-webkit-input-placeholder {
-  color: #999;
-}
-.cell-tag::-ms-expand,
-.tags-input input::-ms-expand,
-.tags-input button::-ms-expand {
-  border: 0;
-  background-color: transparent;
-}
-.cell-tag[disabled],
-.tags-input input[disabled],
-.tags-input button[disabled],
-.cell-tag[readonly],
-.tags-input input[readonly],
-.tags-input button[readonly],
-fieldset[disabled] .cell-tag,
-fieldset[disabled] .tags-input input,
-fieldset[disabled] .tags-input button {
-  background-color: #eeeeee;
-  opacity: 1;
-}
-.cell-tag[disabled],
-.tags-input input[disabled],
-.tags-input button[disabled],
-fieldset[disabled] .cell-tag,
-fieldset[disabled] .tags-input input,
-fieldset[disabled] .tags-input button {
-  cursor: not-allowed;
-}
-textarea.cell-tag,
-textarea.tags-input input,
-textarea.tags-input button {
-  height: auto;
-}
-select.cell-tag,
-select.tags-input input,
-select.tags-input button {
-  height: 30px;
-  line-height: 30px;
-}
-textarea.cell-tag,
-textarea.tags-input input,
-textarea.tags-input button,
-select[multiple].cell-tag,
-select[multiple].tags-input input,
-select[multiple].tags-input button {
-  height: auto;
-}
-.cell-tag,
-.tags-input button {
-  padding: 0px 4px;
-}
-.cell-tag {
-  background-color: #fff;
-  white-space: nowrap;
-}
-.tags-input input[type=text]:focus {
-  outline: none;
-  box-shadow: none;
-  border-color: #ccc;
-}
 .completions {
   position: absolute;
   z-index: 110;
@@ -11820,28 +10657,16 @@ select[multiple].tags-input button {
 .completions select option.context {
   color: #286090;
 }
+#kernel_logo_widget {
+  float: right !important;
+  float: right;
+}
 #kernel_logo_widget .current_kernel_logo {
   display: none;
   margin-top: -1px;
   margin-bottom: -1px;
   width: 32px;
   height: 32px;
-}
-[dir="rtl"] #kernel_logo_widget {
-  float: left !important;
-  float: left;
-}
-.modal .modal-body .move-path {
-  display: flex;
-  flex-direction: row;
-  justify-content: space;
-  align-items: center;
-}
-.modal .modal-body .move-path .server-root {
-  padding-right: 20px;
-}
-.modal .modal-body .move-path .path-input {
-  flex: 1;
 }
 #menubar {
   box-sizing: border-box;
@@ -11863,41 +10688,11 @@ select[multiple].tags-input button {
 #menubar .navbar-collapse {
   clear: left;
 }
-[dir="rtl"] #menubar .navbar-toggle {
-  float: right;
-}
-[dir="rtl"] #menubar .navbar-collapse {
-  clear: right;
-}
-[dir="rtl"] #menubar .navbar-nav {
-  float: right;
-}
-[dir="rtl"] #menubar .nav {
-  padding-right: 0px;
-}
-[dir="rtl"] #menubar .navbar-nav > li {
-  float: right;
-}
-[dir="rtl"] #menubar .navbar-right {
-  float: left !important;
-}
-[dir="rtl"] ul.dropdown-menu {
-  text-align: right;
-  left: auto;
-}
-[dir="rtl"] ul#new-menu.dropdown-menu {
-  right: auto;
-  left: 0;
-}
 .nav-wrapper {
   border-bottom: 1px solid #e7e7e7;
 }
 i.menu-icon {
   padding-top: 4px;
-}
-[dir="rtl"] i.menu-icon.pull-right {
-  float: left !important;
-  float: left;
 }
 ul#help_menu li a {
   overflow: hidden;
@@ -11905,17 +10700,6 @@ ul#help_menu li a {
 }
 ul#help_menu li a i {
   margin-right: -1.2em;
-}
-[dir="rtl"] ul#help_menu li a {
-  padding-left: 2.2em;
-}
-[dir="rtl"] ul#help_menu li a i {
-  margin-right: 0;
-  margin-left: -1.2em;
-}
-[dir="rtl"] ul#help_menu li a i.pull-right {
-  float: left !important;
-  float: left;
 }
 .dropdown-submenu {
   position: relative;
@@ -11925,10 +10709,6 @@ ul#help_menu li a i {
   left: 100%;
   margin-top: -6px;
   margin-left: -1px;
-}
-[dir="rtl"] .dropdown-submenu > .dropdown-menu {
-  right: 100%;
-  margin-right: -1px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
@@ -11947,23 +10727,11 @@ ul#help_menu li a i {
   margin-top: 2px;
   margin-right: -10px;
 }
-.dropdown-submenu > a:after.fa-pull-left {
-  margin-right: .3em;
-}
-.dropdown-submenu > a:after.fa-pull-right {
-  margin-left: .3em;
-}
 .dropdown-submenu > a:after.pull-left {
   margin-right: .3em;
 }
 .dropdown-submenu > a:after.pull-right {
   margin-left: .3em;
-}
-[dir="rtl"] .dropdown-submenu > a:after {
-  float: left;
-  content: "\f0d9";
-  margin-right: 0;
-  margin-left: -10px;
 }
 .dropdown-submenu:hover > a:after {
   color: #262626;
@@ -11980,10 +10748,6 @@ ul#help_menu li a i {
   float: right;
   z-index: 10;
 }
-[dir="rtl"] #notification_area {
-  float: left !important;
-  float: left;
-}
 .indicator_area {
   float: right !important;
   float: right;
@@ -11994,10 +10758,6 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
-}
-[dir="rtl"] .indicator_area {
-  float: left !important;
-  float: left;
 }
 #kernel_indicator {
   float: right !important;
@@ -12015,12 +10775,6 @@ ul#help_menu li a i {
   padding-left: 5px;
   padding-right: 5px;
 }
-[dir="rtl"] #kernel_indicator {
-  float: left !important;
-  float: left;
-  border-left: 0;
-  border-right: 1px solid;
-}
 #modal_indicator {
   float: right !important;
   float: right;
@@ -12031,10 +10785,6 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
-}
-[dir="rtl"] #modal_indicator {
-  float: left !important;
-  float: left;
 }
 #readonly-indicator {
   float: right !important;
@@ -12065,12 +10815,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f040";
 }
-.edit_mode .modal_indicator:before.fa-pull-left {
-  margin-right: .3em;
-}
-.edit_mode .modal_indicator:before.fa-pull-right {
-  margin-left: .3em;
-}
 .edit_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
 }
@@ -12085,12 +10829,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: ' ';
-}
-.command_mode .modal_indicator:before.fa-pull-left {
-  margin-right: .3em;
-}
-.command_mode .modal_indicator:before.fa-pull-right {
-  margin-left: .3em;
 }
 .command_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
@@ -12107,12 +10845,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f10c";
 }
-.kernel_idle_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_idle_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .kernel_idle_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -12127,12 +10859,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f111";
-}
-.kernel_busy_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_busy_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .kernel_busy_icon:before.pull-left {
   margin-right: .3em;
@@ -12149,12 +10875,6 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f1e2";
 }
-.kernel_dead_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_dead_icon:before.fa-pull-right {
-  margin-left: .3em;
-}
 .kernel_dead_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -12169,12 +10889,6 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f127";
-}
-.kernel_disconnected_icon:before.fa-pull-left {
-  margin-right: .3em;
-}
-.kernel_disconnected_icon:before.fa-pull-right {
-  margin-left: .3em;
 }
 .kernel_disconnected_icon:before.pull-left {
   margin-right: .3em;
@@ -12565,46 +11279,27 @@ div#pager .ui-resizable-handle::after {
   flex: 1;
 }
 span.save_widget {
-  height: 30px;
-  margin-top: 4px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  width: 50%;
-  flex: 1;
+  margin-top: 6px;
 }
 span.save_widget span.filename {
-  height: 100%;
+  height: 1em;
   line-height: 1em;
+  padding: 3px;
   margin-left: 16px;
   border: none;
   font-size: 146.5%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   border-radius: 2px;
 }
 span.save_widget span.filename:hover {
   background-color: #e6e6e6;
 }
-[dir="rtl"] span.save_widget.pull-left {
-  float: right !important;
-  float: right;
-}
-[dir="rtl"] span.save_widget span.filename {
-  margin-left: 0;
-  margin-right: 16px;
-}
 span.checkpoint_status,
 span.autosave_status {
   font-size: small;
-  white-space: nowrap;
-  padding: 0 5px;
 }
 @media (max-width: 767px) {
   span.save_widget {
     font-size: small;
-    padding: 0 0 0 5px;
   }
   span.checkpoint_status,
   span.autosave_status {
@@ -12648,9 +11343,6 @@ span.autosave_status {
   margin-top: 0px;
   margin-left: 5px;
 }
-.toolbar-btn-label {
-  margin-left: 6px;
-}
 #maintoolbar {
   margin-bottom: -3px;
   margin-top: -8px;
@@ -12670,10 +11362,6 @@ span.autosave_status {
 }
 .select-xs {
   height: 24px;
-}
-[dir="rtl"] .btn-group > .btn,
-.btn-group-vertical > .btn {
-  float: right;
 }
 .pulse,
 .dropdown-menu > li > a.pulse,
@@ -12824,10 +11512,6 @@ ul.typeahead-list i {
   margin-left: -10px;
   width: 18px;
 }
-[dir="rtl"] ul.typeahead-list i {
-  margin-left: 0;
-  margin-right: -10px;
-}
 ul.typeahead-list {
   max-height: 80vh;
   overflow: auto;
@@ -12836,13 +11520,6 @@ ul.typeahead-list > li > a {
   /** Firefox bug **/
   /* see https://github.com/jupyter/notebook/issues/559 */
   white-space: normal;
-}
-ul.typeahead-list  > li > a.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .typeahead-list {
-  text-align: right;
 }
 .cmd-palette .modal-body {
   padding: 7px;
@@ -12854,19 +11531,10 @@ ul.typeahead-list  > li > a.pull-right {
   outline: none;
 }
 .no-shortcut {
-  min-width: 20px;
-  color: transparent;
-}
-[dir="rtl"] .no-shortcut.pull-right {
-  float: left !important;
-  float: left;
-}
-[dir="rtl"] .command-shortcut.pull-right {
-  float: left !important;
-  float: left;
+  display: none;
 }
 .command-shortcut:before {
-  content: "(command mode)";
+  content: "(command)";
   padding-right: 3px;
   color: #777777;
 }
@@ -12875,10 +11543,6 @@ ul.typeahead-list  > li > a.pull-right {
   padding-right: 3px;
   color: #777777;
 }
-[dir="rtl"] .edit-shortcut.pull-right {
-  float: left !important;
-  float: left;
-}
 #find-and-replace #replace-preview .match,
 #find-and-replace #replace-preview .insert {
   background-color: #BBDEFB;
@@ -12886,12 +11550,6 @@ ul.typeahead-list  > li > a.pull-right {
   border-style: solid;
   border-width: 1px;
   border-radius: 0px;
-}
-[dir="ltr"] #find-and-replace .input-group-btn + .form-control {
-  border-left: none;
-}
-[dir="rtl"] #find-and-replace .input-group-btn + .form-control {
-  border-right: none;
 }
 #find-and-replace #replace-preview .replace .match {
   background-color: #FFCDD2;
@@ -13114,11 +11772,12 @@ div#notebook {
     <div class="container" id="notebook-container">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continuous-Control">Continuous Control<a class="anchor-link" href="#Continuous-Control">&#182;</a></h1><hr>
-<p>In this notebook, you will learn how to use the Unity ML-Agents environment for the second project of the <a href="https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893">Deep Reinforcement Learning Nanodegree</a> program.</p>
-<h3 id="1.-Start-the-Environment">1. Start the Environment<a class="anchor-link" href="#1.-Start-the-Environment">&#182;</a></h3><p>We begin by importing the necessary packages.  If the code cell below returns an error, please revisit the project instructions to double-check that you have installed <a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md">Unity ML-Agents</a> and <a href="http://www.numpy.org/">NumPy</a>.</p>
+<h1 id="Continuous-Control---DDPG">Continuous Control - DDPG<a class="anchor-link" href="#Continuous-Control---DDPG">&#182;</a></h1><hr>
+<p>This notebook trains the ML-Agents environment <a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher">Reacher</a> environment using  Deep Deterministic Policy Gradient.</p>
+<h3 id="1.-Start-the-Environment">1. Start the Environment<a class="anchor-link" href="#1.-Start-the-Environment">&#182;</a></h3><p>First import the necessary packages.  If the code cell below returns an error, please revisit the project instructions to double-check that you have installed <a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md">Unity ML-Agents</a> and <a href="http://www.numpy.org/">NumPy</a>.</p>
 
 </div>
 </div>
@@ -13132,13 +11791,14 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Next, we will start the environment!  <strong><em>Before running the code cell below</em></strong>, change the <code>file_name</code> parameter to match the location of the Unity environment that you downloaded.</p>
 <ul>
@@ -13165,7 +11825,7 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">env</span> <span class="o">=</span> <span class="n">UnityEnvironment</span><span class="p">(</span><span class="n">file_name</span><span class="o">=</span><span class="s1">&#39;./Reacher_Windows_x86_64/Reacher.exe&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13175,7 +11835,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stderr output_text">
@@ -13205,7 +11865,8 @@ Unity brain name: ReacherBrain
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Environments contain <strong><em>brains</em></strong> which are responsible for deciding the actions of their associated agents. Here we check for the first brain available, and set it as the default brain we will be controlling from Python.</p>
 
@@ -13222,15 +11883,16 @@ Unity brain name: ReacherBrain
 <span class="n">brain</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">brains</span><span class="p">[</span><span class="n">brain_name</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.-Examine-the-State-and-Action-Spaces">2. Examine the State and Action Spaces<a class="anchor-link" href="#2.-Examine-the-State-and-Action-Spaces">&#182;</a></h3><p>In this environment, a double-jointed arm can move to target locations. A reward of <code>+0.1</code> is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.</p>
+<h3 id="2.-Examining-the-State-and-Action-Spaces">2. Examining the State and Action Spaces<a class="anchor-link" href="#2.-Examining-the-State-and-Action-Spaces">&#182;</a></h3><p>In this environment, a double-jointed arm can move to target locations. A reward of <code>+0.1</code> is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.</p>
 <p>The observation space consists of <code>33</code> variables corresponding to position, rotation, velocity, and angular velocities of the arm.  Each action is a vector with four numbers, corresponding to torque applicable to two joints.  Every entry in the action vector must be a number between <code>-1</code> and <code>1</code>.</p>
 <p>Run the code cell below to print some information about the environment.</p>
 
@@ -13260,7 +11922,7 @@ Unity brain name: ReacherBrain
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The state for the first agent looks like:&#39;</span><span class="p">,</span> <span class="n">states</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13270,13 +11932,13 @@ Unity brain name: ReacherBrain
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Number of agents: 1
+<pre>Number of agents: 20
 Size of each action: 4
-There are 1 agents. Each observes a state with length: 33
+There are 20 agents. Each observes a state with length: 33
 The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00000000e+00  1.00000000e+00
  -0.00000000e+00 -0.00000000e+00 -4.37113883e-08  0.00000000e+00
   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
@@ -13284,7 +11946,7 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
   1.00000000e+00 -0.00000000e+00 -0.00000000e+00 -4.37113883e-08
   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
   0.00000000e+00  0.00000000e+00  5.75471878e+00 -1.00000000e+00
-  5.55726671e+00  0.00000000e+00  1.00000000e+00  0.00000000e+00
+  5.55726624e+00  0.00000000e+00  1.00000000e+00  0.00000000e+00
  -1.68164849e-01]
 </pre>
 </div>
@@ -13295,7 +11957,8 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.-Take-Random-Actions-in-the-Environment">3. Take Random Actions in the Environment<a class="anchor-link" href="#3.-Take-Random-Actions-in-the-Environment">&#182;</a></h3><p>In the next code cell, you will learn how to use the Python API to control the agent and receive feedback from the environment.</p>
 <p>Once this cell is executed, you will watch the agent's performance, if it selects an action at random with each time step.  A window should pop up that allows you to observe the agent, as it moves through the environment.</p>
@@ -13306,7 +11969,7 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># env_info = env.reset(train_mode=False)[brain_name]     # reset the environment    </span>
@@ -13326,34 +11989,14 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
 <span class="c1"># print(&#39;Total score (averaged over agents) this episode: {}&#39;.format(np.mean(scores)))</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>When finished, you can close the environment.</p>
-
 </div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># env.close()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="4.-It's-Your-Turn!">4. It's Your Turn!<a class="anchor-link" href="#4.-It's-Your-Turn!">&#182;</a></h3><p>Now it's your turn to train your own agent to solve the environment!  When training the environment, set <code>train_mode=True</code>, so that the line for resetting the environment looks like the following:</p>
 <div class="highlight"><pre><span></span><span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">train_mode</span><span class="o">=</span><span class="bp">True</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>
@@ -13363,7 +12006,8 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Agent-Training-(Using-DDPG)">Agent Training (Using DDPG)<a class="anchor-link" href="#Agent-Training-(Using-DDPG)">&#182;</a></h3>
 </div>
@@ -13371,581 +12015,78 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ddpg_agent</span> <span class="k">import</span> <span class="n">Agent</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span><span class="p">,</span> <span class="n">deque</span>
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">ddpg_agent</span> <span class="k">import</span> <span class="n">Agent</span>
+<span class="n">agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span><span class="n">state_size</span><span class="o">=</span><span class="n">state_size</span><span class="p">,</span> <span class="n">action_size</span><span class="o">=</span><span class="n">action_size</span><span class="p">,</span> <span class="n">random_seed</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">train_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>
-<span class="n">agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span><span class="n">env_info</span><span class="o">.</span><span class="n">vector_observations</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">brain</span><span class="o">.</span><span class="n">vector_action_space_size</span><span class="p">,</span> <span class="n">random_seed</span><span class="o">=</span><span class="mi">2019</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ddpg</span><span class="p">(</span><span class="n">n_episodes</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">max_t</span><span class="o">=</span><span class="mi">500</span><span class="p">):</span>
-    <span class="n">avg_score</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">chkpt_episodes</span> <span class="o">=</span> <span class="mi">50</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ddpg</span><span class="p">(</span><span class="n">n_episodes</span><span class="o">=</span><span class="mi">2000</span><span class="p">,</span> <span class="n">max_t</span><span class="o">=</span><span class="mi">1500</span><span class="p">):</span>
     <span class="n">scores_deque</span> <span class="o">=</span> <span class="n">deque</span><span class="p">(</span><span class="n">maxlen</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
-    <span class="n">scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_agents</span><span class="p">)</span>
-    <span class="n">time_steps</span> <span class="o">=</span> <span class="mi">20</span>
-    <span class="n">num_update</span> <span class="o">=</span> <span class="mi">10</span>
-    <span class="n">len_agents</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">num_agents</span><span class="p">))</span>
-    
-    <span class="n">env_solv</span> <span class="o">=</span> <span class="kc">False</span>
-    <span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">train_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>
-    
-    <span class="n">states</span> <span class="o">=</span> <span class="n">env_info</span><span class="o">.</span><span class="n">vector_observations</span>
-    
-    <span class="n">agent_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;state_size&quot;</span><span class="p">:</span> <span class="n">state_size</span><span class="p">,</span> <span class="s2">&quot;action_size&quot;</span><span class="p">:</span> <span class="n">action_size</span><span class="p">,</span> <span class="s2">&quot;random_seed&quot;</span><span class="p">:</span> <span class="mi">2019</span><span class="p">}</span>
-    <span class="n">agents</span> <span class="o">=</span> <span class="p">[</span><span class="n">Agent</span><span class="p">(</span><span class="o">**</span><span class="n">agent_kwargs</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_agents</span><span class="p">)]</span>
-    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">agents</span><span class="p">)</span> <span class="o">==</span> <span class="n">num_agents</span>
-    <span class="n">action</span> <span class="o">=</span> <span class="p">[</span><span class="n">agent</span><span class="o">.</span><span class="n">act</span><span class="p">(</span><span class="n">states</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">agent</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">agents</span><span class="p">)]</span>
-
-    
-    
+    <span class="n">average_scores</span> <span class="o">=</span> <span class="p">[]</span>                                        <span class="c1"># average of the score of the 20 agents for each episode</span>
+        
     <span class="k">for</span> <span class="n">i_episode</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n_episodes</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">train_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>      <span class="c1"># reset the environment    </span>
         <span class="n">states</span> <span class="o">=</span> <span class="n">env_info</span><span class="o">.</span><span class="n">vector_observations</span>                  <span class="c1"># get the current state (for each agent)</span>
-        <span class="k">for</span> <span class="n">agent</span> <span class="ow">in</span> <span class="n">agents</span><span class="p">:</span>
-            <span class="n">agent</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
-
+        <span class="n">scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_agents</span><span class="p">)</span>                          <span class="c1"># initialize the score (for each agent)</span>
+        <span class="n">agent</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+        
+        <span class="n">timestep</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
         <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_t</span><span class="p">):</span>
-            <span class="n">actions</span> <span class="o">=</span> <span class="p">[</span><span class="n">agent</span><span class="o">.</span><span class="n">act</span><span class="p">(</span><span class="n">states</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">agent</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">agents</span><span class="p">)]</span>
-            
-            <span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">actions</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>
+            <span class="n">actions</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">act</span><span class="p">(</span><span class="n">states</span><span class="p">)</span>
+            <span class="n">env_info</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">actions</span><span class="p">)[</span><span class="n">brain_name</span><span class="p">]</span>           <span class="c1"># send all actions to tne environment</span>
             <span class="n">next_states</span> <span class="o">=</span> <span class="n">env_info</span><span class="o">.</span><span class="n">vector_observations</span>         <span class="c1"># get next state (for each agent)</span>
             <span class="n">rewards</span> <span class="o">=</span> <span class="n">env_info</span><span class="o">.</span><span class="n">rewards</span>                         <span class="c1"># get reward (for each agent)</span>
             <span class="n">dones</span> <span class="o">=</span> <span class="n">env_info</span><span class="o">.</span><span class="n">local_done</span>                        <span class="c1"># see if episode finished</span>
-            
-            <span class="n">step_tuple</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">agents</span><span class="p">,</span> <span class="n">states</span><span class="p">,</span> <span class="n">actions</span><span class="p">,</span> <span class="n">rewards</span><span class="p">,</span> <span class="n">next_states</span><span class="p">,</span> <span class="n">dones</span><span class="p">)</span>
-            
-            <span class="k">for</span> <span class="n">agent</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">s_</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">step_tuple</span><span class="p">:</span>
-                <span class="n">agent</span><span class="o">.</span><span class="n">memory</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">s_</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
-                <span class="k">if</span> <span class="p">(</span> <span class="n">t</span> <span class="o">%</span> <span class="n">time_steps</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
-                    <span class="n">agent</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">a</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">s_</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
-            <span class="n">states</span>  <span class="o">=</span> <span class="n">next_states</span>
-            <span class="n">scores</span> <span class="o">+=</span> <span class="n">rewards</span>                                  <span class="c1"># update the score (for each agent)</span>
+            <span class="n">agent</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">states</span><span class="p">,</span> <span class="n">actions</span><span class="p">,</span> <span class="n">rewards</span><span class="p">,</span> <span class="n">next_states</span><span class="p">,</span> <span class="n">dones</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+            <span class="n">states</span> <span class="o">=</span> <span class="n">next_states</span>                               <span class="c1"># roll over states to next time step</span>
+            <span class="n">scores</span> <span class="o">+=</span> <span class="n">rewards</span>                                  <span class="c1"># update the score (for each agent)            </span>
             <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">dones</span><span class="p">):</span>                                  <span class="c1"># exit loop if episode finished</span>
                 <span class="k">break</span>
-                
-        <span class="n">score</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>        
-        <span class="n">avg_score</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
+        
+        <span class="n">score</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
         <span class="n">scores_deque</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
-
-        <span class="n">avg</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">)</span>
-            
-            
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r</span><span class="s1">Episode </span><span class="si">{}</span><span class="se">\t</span><span class="s1">Average Score: </span><span class="si">{:.2f}</span><span class="se">\t</span><span class="s1">Score: </span><span class="si">{:.2f}</span><span class="s1"> </span><span class="se">\t</span><span class="s1">Max Score: </span><span class="si">{:.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i_episode</span><span class="p">,</span> <span class="n">avg</span><span class="p">,</span> <span class="n">score</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">)),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
-
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">env_solv</span> <span class="ow">and</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">30.</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r\r</span><span class="s2">env __solved__ @ i_episode=</span><span class="si">{i_episode}</span><span class="s2">, w/ avg_score=</span><span class="si">{avg:.2f}</span><span class="se">\r</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i_episode</span><span class="o">=</span><span class="n">i_episode</span><span class="p">,</span> <span class="n">avg</span><span class="o">=</span><span class="n">avg</span><span class="p">))</span>
-            <span class="n">env_solv</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">average_scores</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>      
         
-        
-        <span class="k">if</span> <span class="n">i_episode</span> <span class="o">%</span> <span class="n">chkpt_episodes</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">episodes: </span><span class="si">{i_episode}</span><span class="se">\t</span><span class="s2">avg: </span><span class="si">{avg:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i_episode</span><span class="o">=</span><span class="n">i_episode</span><span class="p">,</span> <span class="n">avg</span><span class="o">=</span><span class="n">avg</span><span class="p">))</span>
-
-            <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">agent</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">agents</span><span class="p">):</span>
-                <span class="n">chkpt_path_actor</span> <span class="o">=</span> <span class="s2">&quot;actor_&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="n">len_agents</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.pth&quot;</span>
-                <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">agent</span><span class="o">.</span><span class="n">actor_local</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="n">chkpt_path_actor</span><span class="p">)</span>
-
-                <span class="n">chkpt_path_critic</span> <span class="o">=</span> <span class="s2">&quot;critic_&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="n">len_agents</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.pth&quot;</span>
-                <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">agent</span><span class="o">.</span><span class="n">critic_local</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="n">chkpt_path_critic</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">avg_score</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">scores</span> <span class="o">=</span> <span class="n">ddpg</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
+        <span class="k">if</span> <span class="n">i_episode</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r</span><span class="s1">Episode </span><span class="si">{}</span><span class="s1">, Average Score: </span><span class="si">{:.2f}</span><span class="s1">, Max: </span><span class="si">{:.2f}</span><span class="s1">, Min: </span><span class="si">{:.2f}</span><span class="s1">, Time: </span><span class="si">{:.2f}</span><span class="s1">&#39;</span>\
+                <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i_episode</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">scores</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">scores</span><span class="p">),</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">timestep</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>  
+            
+        <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mf">30.0</span><span class="p">:</span>
+            <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">agent</span><span class="o">.</span><span class="n">actor_local</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="s1">&#39;checkpoint_actor.pth&#39;</span><span class="p">)</span>
+            <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">agent</span><span class="o">.</span><span class="n">critic_local</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="s1">&#39;checkpoint_critic.pth&#39;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Environment solved in </span><span class="si">{:d}</span><span class="s1"> episodes!</span><span class="se">\t</span><span class="s1">Average Score: </span><span class="si">{:.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i_episode</span><span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">scores_deque</span><span class="p">)))</span>            
+            <span class="k">break</span>            
+            
+    <span class="k">return</span> <span class="n">average_scores</span>
 
 
-<div class="output_area">
+<span class="n">scores</span> <span class="o">=</span> <span class="n">ddpg</span><span class="p">()</span>
 
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>c:\users\vaidicj\anaconda3\envs\drl\lib\site-packages\torch\nn\functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
-  warnings.warn(&#34;nn.functional.tanh is deprecated. Use torch.tanh instead.&#34;)
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Episode 1	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 2	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 3	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 4	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 5	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 6	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 7	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 8	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 9	Average Score: 0.00	Score: 0.00 	Max Score: 0.00
-Episode 10	Average Score: 0.03	Score: 0.30 	Max Score: 0.30
-Episode 11	Average Score: 0.05	Score: 0.30 	Max Score: 0.30
-Episode 12	Average Score: 0.07	Score: 0.30 	Max Score: 0.30
-Episode 13	Average Score: 0.12	Score: 0.72 	Max Score: 0.72
-Episode 14	Average Score: 0.21	Score: 1.39 	Max Score: 1.39
-Episode 15	Average Score: 0.29	Score: 1.39 	Max Score: 1.39
-Episode 16	Average Score: 0.41	Score: 2.09 	Max Score: 2.09
-Episode 17	Average Score: 0.52	Score: 2.37 	Max Score: 2.37
-Episode 18	Average Score: 0.62	Score: 2.37 	Max Score: 2.37
-Episode 19	Average Score: 0.73	Score: 2.71 	Max Score: 2.71
-Episode 20	Average Score: 0.83	Score: 2.71 	Max Score: 2.71
-Episode 21	Average Score: 0.92	Score: 2.71 	Max Score: 2.71
-Episode 22	Average Score: 1.02	Score: 3.13 	Max Score: 3.13
-Episode 23	Average Score: 1.13	Score: 3.40 	Max Score: 3.40
-Episode 24	Average Score: 1.22	Score: 3.40 	Max Score: 3.40
-Episode 25	Average Score: 1.31	Score: 3.40 	Max Score: 3.40
-Episode 26	Average Score: 1.40	Score: 3.72 	Max Score: 3.72
-Episode 27	Average Score: 1.49	Score: 3.72 	Max Score: 3.72
-Episode 28	Average Score: 1.57	Score: 3.72 	Max Score: 3.72
-Episode 29	Average Score: 1.64	Score: 3.72 	Max Score: 3.72
-Episode 30	Average Score: 1.71	Score: 3.72 	Max Score: 3.72
-Episode 31	Average Score: 1.78	Score: 4.00 	Max Score: 4.00
-Episode 32	Average Score: 1.86	Score: 4.23 	Max Score: 4.23
-Episode 33	Average Score: 1.93	Score: 4.23 	Max Score: 4.23
-Episode 34	Average Score: 2.00	Score: 4.23 	Max Score: 4.23
-Episode 35	Average Score: 2.07	Score: 4.44 	Max Score: 4.44
-Episode 36	Average Score: 2.13	Score: 4.44 	Max Score: 4.44
-Episode 37	Average Score: 2.20	Score: 4.44 	Max Score: 4.44
-Episode 38	Average Score: 2.26	Score: 4.44 	Max Score: 4.44
-Episode 39	Average Score: 2.31	Score: 4.44 	Max Score: 4.44
-Episode 40	Average Score: 2.37	Score: 4.44 	Max Score: 4.44
-Episode 41	Average Score: 2.42	Score: 4.44 	Max Score: 4.44
-Episode 42	Average Score: 2.46	Score: 4.44 	Max Score: 4.44
-Episode 43	Average Score: 2.51	Score: 4.54 	Max Score: 4.54
-Episode 44	Average Score: 2.56	Score: 4.54 	Max Score: 4.54
-Episode 45	Average Score: 2.60	Score: 4.54 	Max Score: 4.54
-Episode 46	Average Score: 2.65	Score: 4.69 	Max Score: 4.69
-Episode 47	Average Score: 2.69	Score: 4.69 	Max Score: 4.69
-Episode 48	Average Score: 2.73	Score: 4.69 	Max Score: 4.69
-Episode 49	Average Score: 2.77	Score: 4.69 	Max Score: 4.69
-Episode 50	Average Score: 2.81	Score: 4.69 	Max Score: 4.69
-episodes: 50	avg: 2.81
-Episode 51	Average Score: 2.85	Score: 4.69 	Max Score: 4.69
-Episode 52	Average Score: 2.88	Score: 4.69 	Max Score: 4.69
-Episode 53	Average Score: 2.92	Score: 4.69 	Max Score: 4.69
-Episode 54	Average Score: 2.95	Score: 4.69 	Max Score: 4.69
-Episode 55	Average Score: 2.98	Score: 4.69 	Max Score: 4.69
-Episode 56	Average Score: 3.01	Score: 4.69 	Max Score: 4.69
-Episode 57	Average Score: 3.04	Score: 4.69 	Max Score: 4.69
-Episode 58	Average Score: 3.07	Score: 4.69 	Max Score: 4.69
-Episode 59	Average Score: 3.10	Score: 4.69 	Max Score: 4.69
-Episode 60	Average Score: 3.12	Score: 4.69 	Max Score: 4.69
-Episode 61	Average Score: 3.15	Score: 4.69 	Max Score: 4.69
-Episode 62	Average Score: 3.17	Score: 4.69 	Max Score: 4.69
-Episode 63	Average Score: 3.20	Score: 4.69 	Max Score: 4.69
-Episode 64	Average Score: 3.22	Score: 4.69 	Max Score: 4.69
-Episode 65	Average Score: 3.24	Score: 4.69 	Max Score: 4.69
-Episode 66	Average Score: 3.27	Score: 4.69 	Max Score: 4.69
-Episode 67	Average Score: 3.29	Score: 4.80 	Max Score: 4.80
-Episode 68	Average Score: 3.31	Score: 4.80 	Max Score: 4.80
-Episode 69	Average Score: 3.33	Score: 4.80 	Max Score: 4.80
-Episode 70	Average Score: 3.35	Score: 4.80 	Max Score: 4.80
-Episode 71	Average Score: 3.37	Score: 4.80 	Max Score: 4.80
-Episode 72	Average Score: 3.39	Score: 4.80 	Max Score: 4.80
-Episode 73	Average Score: 3.41	Score: 4.80 	Max Score: 4.80
-Episode 74	Average Score: 3.43	Score: 4.80 	Max Score: 4.80
-Episode 75	Average Score: 3.45	Score: 4.80 	Max Score: 4.80
-Episode 76	Average Score: 3.47	Score: 4.80 	Max Score: 4.80
-Episode 77	Average Score: 3.49	Score: 4.80 	Max Score: 4.80
-Episode 78	Average Score: 3.50	Score: 4.80 	Max Score: 4.80
-Episode 79	Average Score: 3.52	Score: 4.80 	Max Score: 4.80
-Episode 80	Average Score: 3.54	Score: 4.80 	Max Score: 4.80
-Episode 81	Average Score: 3.55	Score: 4.80 	Max Score: 4.80
-Episode 82	Average Score: 3.57	Score: 4.80 	Max Score: 4.80
-Episode 83	Average Score: 3.58	Score: 4.80 	Max Score: 4.80
-Episode 84	Average Score: 3.60	Score: 4.80 	Max Score: 4.80
-Episode 85	Average Score: 3.61	Score: 4.80 	Max Score: 4.80
-Episode 86	Average Score: 3.62	Score: 4.80 	Max Score: 4.80
-Episode 87	Average Score: 3.64	Score: 4.80 	Max Score: 4.80
-Episode 88	Average Score: 3.65	Score: 5.16 	Max Score: 5.16
-Episode 89	Average Score: 3.68	Score: 6.06 	Max Score: 6.06
-Episode 90	Average Score: 3.71	Score: 6.06 	Max Score: 6.06
-Episode 91	Average Score: 3.74	Score: 6.73 	Max Score: 6.73
-Episode 92	Average Score: 3.77	Score: 6.79 	Max Score: 6.79
-Episode 93	Average Score: 3.81	Score: 6.79 	Max Score: 6.79
-Episode 94	Average Score: 3.85	Score: 7.50 	Max Score: 7.50
-Episode 95	Average Score: 3.88	Score: 7.50 	Max Score: 7.50
-Episode 96	Average Score: 3.92	Score: 7.50 	Max Score: 7.50
-Episode 97	Average Score: 3.96	Score: 7.97 	Max Score: 7.97
-Episode 98	Average Score: 4.02	Score: 9.04 	Max Score: 9.04
-Episode 99	Average Score: 4.07	Score: 9.04 	Max Score: 9.04
-Episode 100	Average Score: 4.12	Score: 9.04 	Max Score: 9.04
-episodes: 100	avg: 4.12
-Episode 101	Average Score: 4.21	Score: 9.04 	Max Score: 9.04
-Episode 102	Average Score: 4.30	Score: 9.04 	Max Score: 9.04
-Episode 103	Average Score: 4.39	Score: 9.04 	Max Score: 9.04
-Episode 104	Average Score: 4.48	Score: 9.75 	Max Score: 9.75
-Episode 105	Average Score: 4.58	Score: 9.75 	Max Score: 9.75
-Episode 106	Average Score: 4.69	Score: 10.48 	Max Score: 10.48
-Episode 107	Average Score: 4.79	Score: 10.48 	Max Score: 10.48
-Episode 108	Average Score: 4.90	Score: 10.48 	Max Score: 10.48
-Episode 109	Average Score: 5.00	Score: 10.48 	Max Score: 10.48
-Episode 110	Average Score: 5.10	Score: 10.48 	Max Score: 10.48
-Episode 111	Average Score: 5.20	Score: 10.48 	Max Score: 10.48
-Episode 112	Average Score: 5.31	Score: 10.68 	Max Score: 10.68
-Episode 113	Average Score: 5.42	Score: 11.61 	Max Score: 11.61
-Episode 114	Average Score: 5.52	Score: 11.61 	Max Score: 11.61
-Episode 115	Average Score: 5.62	Score: 11.61 	Max Score: 11.61
-Episode 116	Average Score: 5.72	Score: 11.78 	Max Score: 11.78
-Episode 117	Average Score: 5.81	Score: 11.78 	Max Score: 11.78
-Episode 118	Average Score: 5.91	Score: 11.79 	Max Score: 11.79
-Episode 119	Average Score: 6.00	Score: 11.79 	Max Score: 11.79
-Episode 120	Average Score: 6.09	Score: 11.79 	Max Score: 11.79
-Episode 121	Average Score: 6.18	Score: 11.97 	Max Score: 11.97
-Episode 122	Average Score: 6.27	Score: 12.08 	Max Score: 12.08
-Episode 123	Average Score: 6.36	Score: 12.08 	Max Score: 12.08
-Episode 124	Average Score: 6.45	Score: 12.57 	Max Score: 12.57
-Episode 125	Average Score: 6.54	Score: 12.94 	Max Score: 12.94
-Episode 126	Average Score: 6.64	Score: 12.94 	Max Score: 12.94
-Episode 127	Average Score: 6.73	Score: 13.05 	Max Score: 13.05
-Episode 128	Average Score: 6.83	Score: 13.46 	Max Score: 13.46
-Episode 129	Average Score: 6.93	Score: 13.46 	Max Score: 13.46
-Episode 130	Average Score: 7.03	Score: 13.89 	Max Score: 13.89
-Episode 131	Average Score: 7.13	Score: 13.89 	Max Score: 13.89
-Episode 132	Average Score: 7.22	Score: 13.89 	Max Score: 13.89
-Episode 133	Average Score: 7.32	Score: 13.89 	Max Score: 13.89
-Episode 134	Average Score: 7.42	Score: 13.89 	Max Score: 13.89
-Episode 135	Average Score: 7.51	Score: 13.89 	Max Score: 13.89
-Episode 136	Average Score: 7.60	Score: 13.89 	Max Score: 13.89
-Episode 137	Average Score: 7.71	Score: 14.86 	Max Score: 14.86
-Episode 138	Average Score: 7.81	Score: 14.86 	Max Score: 14.86
-Episode 139	Average Score: 7.92	Score: 15.11 	Max Score: 15.11
-Episode 140	Average Score: 8.03	Score: 15.23 	Max Score: 15.23
-Episode 141	Average Score: 8.14	Score: 15.23 	Max Score: 15.23
-Episode 142	Average Score: 8.25	Score: 15.68 	Max Score: 15.68
-Episode 143	Average Score: 8.37	Score: 16.86 	Max Score: 16.86
-Episode 144	Average Score: 8.49	Score: 16.86 	Max Score: 16.86
-Episode 145	Average Score: 8.62	Score: 16.86 	Max Score: 16.86
-Episode 146	Average Score: 8.74	Score: 17.10 	Max Score: 17.10
-Episode 147	Average Score: 8.87	Score: 17.10 	Max Score: 17.10
-Episode 148	Average Score: 8.99	Score: 17.40 	Max Score: 17.40
-Episode 149	Average Score: 9.12	Score: 17.54 	Max Score: 17.54
-Episode 150	Average Score: 9.25	Score: 17.54 	Max Score: 17.54
-episodes: 150	avg: 9.25
-Episode 151	Average Score: 9.38	Score: 17.71 	Max Score: 17.71
-Episode 152	Average Score: 9.51	Score: 17.76 	Max Score: 17.76
-Episode 153	Average Score: 9.64	Score: 17.76 	Max Score: 17.76
-Episode 154	Average Score: 9.77	Score: 18.06 	Max Score: 18.06
-Episode 155	Average Score: 9.91	Score: 18.36 	Max Score: 18.36
-Episode 156	Average Score: 10.05	Score: 18.36 	Max Score: 18.36
-Episode 157	Average Score: 10.19	Score: 18.83 	Max Score: 18.83
-Episode 158	Average Score: 10.34	Score: 19.53 	Max Score: 19.53
-Episode 159	Average Score: 10.49	Score: 19.53 	Max Score: 19.53
-Episode 160	Average Score: 10.64	Score: 19.94 	Max Score: 19.94
-Episode 161	Average Score: 10.79	Score: 19.99 	Max Score: 19.99
-Episode 162	Average Score: 10.95	Score: 19.99 	Max Score: 19.99
-Episode 163	Average Score: 11.11	Score: 20.77 	Max Score: 20.77
-Episode 164	Average Score: 11.27	Score: 21.35 	Max Score: 21.35
-Episode 165	Average Score: 11.44	Score: 21.35 	Max Score: 21.35
-Episode 166	Average Score: 11.61	Score: 21.63 	Max Score: 21.63
-Episode 167	Average Score: 11.78	Score: 22.10 	Max Score: 22.10
-Episode 168	Average Score: 11.95	Score: 22.10 	Max Score: 22.10
-Episode 169	Average Score: 12.13	Score: 22.56 	Max Score: 22.56
-Episode 170	Average Score: 12.32	Score: 23.91 	Max Score: 23.91
-Episode 171	Average Score: 12.51	Score: 23.95 	Max Score: 23.95
-Episode 172	Average Score: 12.71	Score: 24.66 	Max Score: 24.66
-Episode 173	Average Score: 12.91	Score: 24.71 	Max Score: 24.71
-Episode 174	Average Score: 13.11	Score: 24.71 	Max Score: 24.71
-Episode 175	Average Score: 13.31	Score: 24.71 	Max Score: 24.71
-Episode 176	Average Score: 13.52	Score: 25.45 	Max Score: 25.45
-Episode 177	Average Score: 13.72	Score: 25.45 	Max Score: 25.45
-Episode 178	Average Score: 13.93	Score: 25.48 	Max Score: 25.48
-Episode 179	Average Score: 14.14	Score: 25.48 	Max Score: 25.48
-Episode 180	Average Score: 14.34	Score: 25.48 	Max Score: 25.48
-Episode 181	Average Score: 14.56	Score: 25.95 	Max Score: 25.95
-Episode 182	Average Score: 14.77	Score: 26.20 	Max Score: 26.20
-Episode 183	Average Score: 14.98	Score: 26.20 	Max Score: 26.20
-Episode 184	Average Score: 15.20	Score: 26.33 	Max Score: 26.33
-Episode 185	Average Score: 15.42	Score: 27.24 	Max Score: 27.24
-Episode 186	Average Score: 15.65	Score: 27.24 	Max Score: 27.24
-Episode 187	Average Score: 15.88	Score: 27.98 	Max Score: 27.98
-Episode 188	Average Score: 16.11	Score: 28.35 	Max Score: 28.35
-Episode 189	Average Score: 16.33	Score: 28.35 	Max Score: 28.35
-Episode 190	Average Score: 16.56	Score: 28.40 	Max Score: 28.40
-Episode 191	Average Score: 16.78	Score: 28.69 	Max Score: 28.69
-Episode 192	Average Score: 17.00	Score: 28.69 	Max Score: 28.69
-Episode 193	Average Score: 17.22	Score: 29.55 	Max Score: 29.55
-Episode 194	Average Score: 17.45	Score: 29.89 	Max Score: 29.89
-Episode 195	Average Score: 17.67	Score: 29.89 	Max Score: 29.89
-Episode 196	Average Score: 17.90	Score: 30.14 	Max Score: 30.14
-Episode 197	Average Score: 18.14	Score: 31.68 	Max Score: 31.68
-Episode 198	Average Score: 18.36	Score: 31.68 	Max Score: 31.68
-Episode 199	Average Score: 18.60	Score: 32.90 	Max Score: 32.90
-Episode 200	Average Score: 18.84	Score: 32.90 	Max Score: 32.90
-episodes: 200	avg: 18.84
-Episode 201	Average Score: 19.08	Score: 32.90 	Max Score: 32.90
-Episode 202	Average Score: 19.32	Score: 33.62 	Max Score: 33.62
-Episode 203	Average Score: 19.57	Score: 33.94 	Max Score: 33.94
-Episode 204	Average Score: 19.81	Score: 33.94 	Max Score: 33.94
-Episode 205	Average Score: 20.06	Score: 34.44 	Max Score: 34.44
-Episode 206	Average Score: 20.30	Score: 34.87 	Max Score: 34.87
-Episode 207	Average Score: 20.55	Score: 34.87 	Max Score: 34.87
-Episode 208	Average Score: 20.80	Score: 35.35 	Max Score: 35.35
-Episode 209	Average Score: 21.05	Score: 35.88 	Max Score: 35.88
-Episode 210	Average Score: 21.31	Score: 35.88 	Max Score: 35.88
-Episode 211	Average Score: 21.56	Score: 35.88 	Max Score: 35.88
-Episode 212	Average Score: 21.81	Score: 35.88 	Max Score: 35.88
-Episode 213	Average Score: 22.05	Score: 35.88 	Max Score: 35.88
-Episode 214	Average Score: 22.30	Score: 36.40 	Max Score: 36.40
-Episode 215	Average Score: 22.56	Score: 37.22 	Max Score: 37.22
-Episode 216	Average Score: 22.81	Score: 37.22 	Max Score: 37.22
-Episode 217	Average Score: 23.07	Score: 37.73 	Max Score: 37.73
-Episode 218	Average Score: 23.34	Score: 38.85 	Max Score: 38.85
-Episode 219	Average Score: 23.61	Score: 38.85 	Max Score: 38.85
-Episode 220	Average Score: 23.88	Score: 38.85 	Max Score: 38.85
-Episode 221	Average Score: 24.16	Score: 39.55 	Max Score: 39.55
-Episode 222	Average Score: 24.43	Score: 39.55 	Max Score: 39.55
-Episode 223	Average Score: 24.71	Score: 39.66 	Max Score: 39.66
-Episode 224	Average Score: 24.98	Score: 39.89 	Max Score: 39.89
-Episode 225	Average Score: 25.25	Score: 39.89 	Max Score: 39.89
-Episode 226	Average Score: 25.53	Score: 40.70 	Max Score: 40.70
-Episode 227	Average Score: 25.82	Score: 41.53 	Max Score: 41.53
-Episode 228	Average Score: 26.10	Score: 41.53 	Max Score: 41.53
-Episode 229	Average Score: 26.38	Score: 41.91 	Max Score: 41.91
-Episode 230	Average Score: 26.66	Score: 41.91 	Max Score: 41.91
-Episode 231	Average Score: 26.94	Score: 41.91 	Max Score: 41.91
-Episode 232	Average Score: 27.22	Score: 42.01 	Max Score: 42.01
-Episode 233	Average Score: 27.51	Score: 42.21 	Max Score: 42.21
-Episode 234	Average Score: 27.79	Score: 42.21 	Max Score: 42.21
-Episode 235	Average Score: 28.08	Score: 42.75 	Max Score: 42.75
-Episode 236	Average Score: 28.37	Score: 43.24 	Max Score: 43.24
-Episode 237	Average Score: 28.65	Score: 43.24 	Max Score: 43.24
-Episode 238	Average Score: 28.94	Score: 43.41 	Max Score: 43.41
-Episode 239	Average Score: 29.22	Score: 43.41 	Max Score: 43.41
-Episode 240	Average Score: 29.50	Score: 43.41 	Max Score: 43.41
-Episode 241	Average Score: 29.80	Score: 44.66 	Max Score: 44.66
-Episode 242	Average Score: 30.09	Score: 45.09 	Max Score: 45.09
-env __solved__ @ i_episode=242, w/ avg_score=30.09
-Episode 243	Average Score: 30.38	Score: 45.09 	Max Score: 45.09
-Episode 244	Average Score: 30.67	Score: 46.40 	Max Score: 46.40
-Episode 245	Average Score: 30.98	Score: 48.09 	Max Score: 48.09
-Episode 246	Average Score: 31.29	Score: 48.09 	Max Score: 48.09
-Episode 247	Average Score: 31.61	Score: 48.75 	Max Score: 48.75
-Episode 248	Average Score: 31.94	Score: 50.21 	Max Score: 50.21
-Episode 249	Average Score: 32.26	Score: 50.21 	Max Score: 50.21
-Episode 250	Average Score: 32.60	Score: 51.47 	Max Score: 51.47
-episodes: 250	avg: 32.60
-Episode 251	Average Score: 32.96	Score: 53.20 	Max Score: 53.20
-Episode 252	Average Score: 33.31	Score: 53.20 	Max Score: 53.20
-Episode 253	Average Score: 33.67	Score: 53.49 	Max Score: 53.49
-Episode 254	Average Score: 34.03	Score: 54.35 	Max Score: 54.35
-Episode 255	Average Score: 34.39	Score: 54.35 	Max Score: 54.35
-Episode 256	Average Score: 34.76	Score: 55.18 	Max Score: 55.18
-Episode 257	Average Score: 35.13	Score: 56.11 	Max Score: 56.11
-Episode 258	Average Score: 35.50	Score: 56.11 	Max Score: 56.11
-Episode 259	Average Score: 35.87	Score: 56.34 	Max Score: 56.34
-Episode 260	Average Score: 36.23	Score: 56.66 	Max Score: 56.66
-Episode 261	Average Score: 36.60	Score: 56.66 	Max Score: 56.66
-Episode 262	Average Score: 36.97	Score: 56.78 	Max Score: 56.78
-Episode 263	Average Score: 37.33	Score: 57.06 	Max Score: 57.06
-Episode 264	Average Score: 37.69	Score: 57.06 	Max Score: 57.06
-Episode 265	Average Score: 38.05	Score: 57.52 	Max Score: 57.52
-Episode 266	Average Score: 38.42	Score: 58.81 	Max Score: 58.81
-Episode 267	Average Score: 38.79	Score: 58.81 	Max Score: 58.81
-Episode 268	Average Score: 39.16	Score: 59.14 	Max Score: 59.14
-Episode 269	Average Score: 39.53	Score: 59.24 	Max Score: 59.24
-Episode 270	Average Score: 39.88	Score: 59.24 	Max Score: 59.24
-Episode 271	Average Score: 40.24	Score: 59.88 	Max Score: 59.88
-Episode 272	Average Score: 40.60	Score: 60.70 	Max Score: 60.70
-Episode 273	Average Score: 40.96	Score: 60.70 	Max Score: 60.70
-Episode 274	Average Score: 41.33	Score: 61.81 	Max Score: 61.81
-Episode 275	Average Score: 41.70	Score: 61.81 	Max Score: 61.81
-Episode 276	Average Score: 42.07	Score: 61.81 	Max Score: 61.81
-Episode 277	Average Score: 42.43	Score: 62.12 	Max Score: 62.12
-Episode 278	Average Score: 42.81	Score: 63.07 	Max Score: 63.07
-Episode 279	Average Score: 43.18	Score: 63.07 	Max Score: 63.07
-Episode 280	Average Score: 43.56	Score: 63.22 	Max Score: 63.22
-Episode 281	Average Score: 43.94	Score: 64.25 	Max Score: 64.25
-Episode 282	Average Score: 44.33	Score: 64.25 	Max Score: 64.25
-Episode 283	Average Score: 44.71	Score: 64.25 	Max Score: 64.25
-Episode 284	Average Score: 45.09	Score: 64.26 	Max Score: 64.26
-Episode 285	Average Score: 45.46	Score: 64.26 	Max Score: 64.26
-Episode 286	Average Score: 45.83	Score: 64.26 	Max Score: 64.26
-Episode 287	Average Score: 46.19	Score: 64.26 	Max Score: 64.26
-Episode 288	Average Score: 46.55	Score: 64.26 	Max Score: 64.26
-Episode 289	Average Score: 46.91	Score: 64.36 	Max Score: 64.36
-Episode 290	Average Score: 47.27	Score: 64.36 	Max Score: 64.36
-Episode 291	Average Score: 47.62	Score: 64.36 	Max Score: 64.36
-Episode 292	Average Score: 47.98	Score: 64.36 	Max Score: 64.36
-Episode 293	Average Score: 48.33	Score: 64.36 	Max Score: 64.36
-Episode 294	Average Score: 48.67	Score: 64.36 	Max Score: 64.36
-Episode 295	Average Score: 49.02	Score: 64.56 	Max Score: 64.56
-Episode 296	Average Score: 49.37	Score: 65.10 	Max Score: 65.10
-Episode 297	Average Score: 49.70	Score: 65.10 	Max Score: 65.10
-Episode 298	Average Score: 50.04	Score: 65.39 	Max Score: 65.39
-Episode 299	Average Score: 50.37	Score: 65.39 	Max Score: 65.39
-Episode 300	Average Score: 50.69	Score: 65.39 	Max Score: 65.39
-episodes: 300	avg: 50.69
-Episode 301	Average Score: 51.02	Score: 65.39 	Max Score: 65.39
-Episode 302	Average Score: 51.34	Score: 65.81 	Max Score: 65.81
-Episode 303	Average Score: 51.66	Score: 65.81 	Max Score: 65.81
-Episode 304	Average Score: 51.98	Score: 66.44 	Max Score: 66.44
-Episode 305	Average Score: 52.31	Score: 67.28 	Max Score: 67.28
-Episode 306	Average Score: 52.63	Score: 67.28 	Max Score: 67.28
-Episode 307	Average Score: 52.97	Score: 68.36 	Max Score: 68.36
-Episode 308	Average Score: 53.30	Score: 68.36 	Max Score: 68.36
-Episode 309	Average Score: 53.62	Score: 68.36 	Max Score: 68.36
-Episode 310	Average Score: 53.95	Score: 68.58 	Max Score: 68.58
-Episode 311	Average Score: 54.29	Score: 69.63 	Max Score: 69.63
-Episode 312	Average Score: 54.63	Score: 69.63 	Max Score: 69.63
-Episode 313	Average Score: 54.96	Score: 69.63 	Max Score: 69.63
-Episode 314	Average Score: 55.30	Score: 69.79 	Max Score: 69.79
-Episode 315	Average Score: 55.62	Score: 69.79 	Max Score: 69.79
-Episode 316	Average Score: 55.95	Score: 69.79 	Max Score: 69.79
-Episode 317	Average Score: 56.27	Score: 70.07 	Max Score: 70.07
-Episode 318	Average Score: 56.58	Score: 70.07 	Max Score: 70.07
-Episode 319	Average Score: 56.90	Score: 70.23 	Max Score: 70.23
-Episode 320	Average Score: 57.22	Score: 70.70 	Max Score: 70.70
-Episode 321	Average Score: 57.53	Score: 70.70 	Max Score: 70.70
-Episode 322	Average Score: 57.84	Score: 70.99 	Max Score: 70.99
-Episode 323	Average Score: 58.17	Score: 72.25 	Max Score: 72.25
-Episode 324	Average Score: 58.49	Score: 72.25 	Max Score: 72.25
-Episode 325	Average Score: 58.82	Score: 72.83 	Max Score: 72.83
-Episode 326	Average Score: 59.14	Score: 72.89 	Max Score: 72.89
-Episode 327	Average Score: 59.46	Score: 72.89 	Max Score: 72.89
-Episode 328	Average Score: 59.78	Score: 73.50 	Max Score: 73.50
-Episode 329	Average Score: 60.09	Score: 73.50 	Max Score: 73.50
-Episode 330	Average Score: 60.41	Score: 73.50 	Max Score: 73.50
-Episode 331	Average Score: 60.73	Score: 73.71 	Max Score: 73.71
-Episode 332	Average Score: 61.05	Score: 74.13 	Max Score: 74.13
-Episode 333	Average Score: 61.37	Score: 74.13 	Max Score: 74.13
-Episode 334	Average Score: 61.69	Score: 74.34 	Max Score: 74.34
-Episode 335	Average Score: 62.01	Score: 75.08 	Max Score: 75.08
-Episode 336	Average Score: 62.33	Score: 75.08 	Max Score: 75.08
-Episode 337	Average Score: 62.65	Score: 75.08 	Max Score: 75.08
-Episode 338	Average Score: 62.97	Score: 75.22 	Max Score: 75.22
-Episode 339	Average Score: 63.28	Score: 75.22 	Max Score: 75.22
-Episode 340	Average Score: 63.60	Score: 75.31 	Max Score: 75.31
-Episode 341	Average Score: 63.91	Score: 75.62 	Max Score: 75.62
-Episode 342	Average Score: 64.22	Score: 75.62 	Max Score: 75.62
-Episode 343	Average Score: 64.53	Score: 76.58 	Max Score: 76.58
-Episode 344	Average Score: 64.84	Score: 76.69 	Max Score: 76.69
-Episode 345	Average Score: 65.12	Score: 76.69 	Max Score: 76.69
-Episode 346	Average Score: 65.41	Score: 77.15 	Max Score: 77.15
-Episode 347	Average Score: 65.71	Score: 78.36 	Max Score: 78.36
-Episode 348	Average Score: 65.99	Score: 78.36 	Max Score: 78.36
-Episode 349	Average Score: 66.27	Score: 78.59 	Max Score: 78.59
-Episode 350	Average Score: 66.54	Score: 78.59 	Max Score: 78.59
-episodes: 350	avg: 66.54
-Episode 351	Average Score: 66.80	Score: 78.59 	Max Score: 78.59
-Episode 352	Average Score: 67.07	Score: 79.94 	Max Score: 79.94
-Episode 353	Average Score: 67.34	Score: 80.51 	Max Score: 80.51
-Episode 354	Average Score: 67.60	Score: 80.51 	Max Score: 80.51
-Episode 355	Average Score: 67.86	Score: 80.75 	Max Score: 80.75
-Episode 356	Average Score: 68.13	Score: 82.38 	Max Score: 82.38
-Episode 357	Average Score: 68.40	Score: 82.38 	Max Score: 82.38
-Episode 358	Average Score: 68.66	Score: 82.50 	Max Score: 82.50
-Episode 359	Average Score: 68.93	Score: 83.15 	Max Score: 83.15
-Episode 360	Average Score: 69.19	Score: 83.15 	Max Score: 83.15
-Episode 361	Average Score: 69.46	Score: 83.27 	Max Score: 83.27
-Episode 362	Average Score: 69.72	Score: 83.31 	Max Score: 83.31
-Episode 363	Average Score: 69.99	Score: 83.31 	Max Score: 83.31
-Episode 364	Average Score: 70.26	Score: 83.86 	Max Score: 83.86
-Episode 365	Average Score: 70.52	Score: 84.38 	Max Score: 84.38
-Episode 366	Average Score: 70.78	Score: 84.38 	Max Score: 84.38
-Episode 367	Average Score: 71.04	Score: 84.50 	Max Score: 84.50
-Episode 368	Average Score: 71.29	Score: 84.73 	Max Score: 84.73
-Episode 369	Average Score: 71.55	Score: 84.73 	Max Score: 84.73
-Episode 370	Average Score: 71.80	Score: 84.84 	Max Score: 84.84
-Episode 371	Average Score: 72.05	Score: 84.91 	Max Score: 84.91
-Episode 372	Average Score: 72.30	Score: 84.91 	Max Score: 84.91
-Episode 373	Average Score: 72.54	Score: 85.01 	Max Score: 85.01
-Episode 374	Average Score: 72.77	Score: 85.35 	Max Score: 85.35
-Episode 375	Average Score: 73.01	Score: 85.35 	Max Score: 85.35
-Episode 376	Average Score: 73.25	Score: 85.35 	Max Score: 85.35
-Episode 377	Average Score: 73.48	Score: 85.71 	Max Score: 85.71
-Episode 378	Average Score: 73.71	Score: 85.71 	Max Score: 85.71
-Episode 379	Average Score: 73.94	Score: 86.15 	Max Score: 86.15
-Episode 380	Average Score: 74.17	Score: 86.15 	Max Score: 86.15
-Episode 381	Average Score: 74.39	Score: 86.15 	Max Score: 86.15
-Episode 382	Average Score: 74.61	Score: 86.60 	Max Score: 86.60
-Episode 383	Average Score: 74.83	Score: 86.60 	Max Score: 86.60
-Episode 384	Average Score: 75.06	Score: 86.60 	Max Score: 86.60
-Episode 385	Average Score: 75.29	Score: 87.10 	Max Score: 87.10
-Episode 386	Average Score: 75.52	Score: 87.24 	Max Score: 87.24
-Episode 387	Average Score: 75.74	Score: 87.24 	Max Score: 87.24
-Episode 388	Average Score: 75.97	Score: 87.24 	Max Score: 87.24
-Episode 389	Average Score: 76.20	Score: 87.30 	Max Score: 87.30
-Episode 390	Average Score: 76.43	Score: 87.30 	Max Score: 87.30
-Episode 391	Average Score: 76.66	Score: 87.30 	Max Score: 87.30
-Episode 392	Average Score: 76.89	Score: 87.30 	Max Score: 87.30
-Episode 393	Average Score: 77.12	Score: 87.30 	Max Score: 87.30
-Episode 394	Average Score: 77.35	Score: 87.30 	Max Score: 87.30
-Episode 395	Average Score: 77.58	Score: 87.30 	Max Score: 87.30
-Episode 396	Average Score: 77.80	Score: 87.30 	Max Score: 87.30
-Episode 397	Average Score: 78.02	Score: 87.37 	Max Score: 87.37
-Episode 398	Average Score: 78.24	Score: 87.37 	Max Score: 87.37
-Episode 399	Average Score: 78.46	Score: 87.37 	Max Score: 87.37
-Episode 400	Average Score: 78.68	Score: 87.37 	Max Score: 87.37
-episodes: 400	avg: 78.68
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
 <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">scores</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Score&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Episodes&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Episode #&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -13955,13 +12096,37 @@ episodes: 400	avg: 78.68
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Episode 10, Average Score: 0.85, Max: 2.55, Min: 0.33, Time: 5.95
+Episode 20, Average Score: 1.60, Max: 6.67, Min: 0.77, Time: 6.85
+Episode 30, Average Score: 2.90, Max: 26.65, Min: 2.29, Time: 7.79
+Episode 40, Average Score: 5.20, Max: 21.93, Min: 8.47, Time: 9.00
+Episode 50, Average Score: 8.49, Max: 33.98, Min: 18.65, Time: 10.10
+Episode 60, Average Score: 11.59, Max: 37.78, Min: 23.78, Time: 10.18
+Episode 70, Average Score: 14.68, Max: 38.48, Min: 29.74, Time: 10.15
+Episode 80, Average Score: 17.43, Max: 39.21, Min: 32.08, Time: 10.29
+Episode 90, Average Score: 19.66, Max: 39.31, Min: 35.07, Time: 10.19
+Episode 100, Average Score: 21.44, Max: 39.51, Min: 34.16, Time: 10.21
+Episode 110, Average Score: 25.14, Max: 39.64, Min: 36.18, Time: 10.37
+Episode 120, Average Score: 28.57, Max: 38.94, Min: 30.15, Time: 10.15
+
+Environment solved in 25 episodes!	Average Score: 30.13
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
 
 
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYIAAAEKCAYAAAAfGVI8AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDMuMC4yLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvOIA7rQAAIABJREFUeJzt3Xd0HOW9xvHvT91V7k0ucq+4CoOxARMDAWMwJOZCQoCAQ3VCOsEhlNwk9yS5NyEkIZQAwZTQTA0kgAETIIB7773IsiVZVu/Se//YMSiOLK2MdkfaeT7n6Gh3dtb7eLTaR9PeMeccIiISXHF+BxAREX+pCEREAk5FICIScCoCEZGAUxGIiAScikBEJOBUBCIiAaciEBEJOBWBiEjAJfgdIBzdunVz6enpfscQEWlVVqxYkeuc697YfK2iCNLT01m+fLnfMUREWhUz2xPOfNo0JCIScCoCEZGAUxGIiAScikBEJOBUBCIiAaciEBEJOBWBiEjAtYrzCEREYsXu3BLyy6ooLKviSGnlfzxeVF5NdmH5p/evPi2dru2TI5pJRSAiEgXOOb733BpeWpUZ1vxmoe8XjU9TEYiItGbFFdXMf3Edu3NLWJdZwNxpA5k2pBspifF075D86Qf+UckJcaR1aoMd+0AEqQhERCJg44FCfv3mZvbllbIrt4RTB3Vl7rSB3D5zJHFx0fuQD4eKQESkGVXX1PI/f9/Mk0v20D45gSE92nPjmYO5NKOf39GOS0UgItIMlu3O47vPriavpJLSyhomDejMTy8azZi0VL+jNUpFICLSRM453txwkGW7j7B2fz6bDxZRVF5Nete2XHZyP8b368Ts8Wl+xwybikBEJEwV1TXc/eoGVu7JZ8uhIuLjjNF9OnLJhDT6dm7Dlyf2jfgRPpGgIhARCdMD7+3k6aX7GNc3lZ9dPIavTu5PfAvb8XsiVAQiIg1wzrExq5DduaXct3g7F47rwx++MsHvWM1KRSAichy/XbSVB/+5g4rqWgC6tEvijlkjfU7V/FQEIiLHyC4sZ0NWIQ+8t4O+ndtw0/TBDOrensHd29GpbZLf8ZqdikBEpA7nHLPv+xdZBeV0apvIE984hbRObfyOFVEqAhGROvYfKSOroJwLTurNr+aMpX1y7H9MRnQYajP7rpltMLP1Zva0maWY2UAzW2Jm28zsWTOLvfUsEWm11u4vAOCGMwcFogQggkVgZmnALUCGc24MEA9cDvwKuMc5NxQ4AsyNVAYRkaZatjuPpPg4RvTq6HeUqIn0hWkSgDZmlgC0BbKALwALvccXABdHOIOISKO2HCzi5F+8zWMf7eaMYd1JSgjOdbsitt7jnMs0s/8D9gJlwFvACiDfOVftzbYfaD3nYYtIzLrr1fUcKankxzNHcPVp6X7HiapIbhrqDMwGBgJ9gHbA+fXM6o7z/OvNbLmZLc/JyYlUTBERDhWW88nOPL57zjCuP2MwyQnxfkeKqkiu+5wN7HLO5TjnqoAXgdOATt6mIoC+wIH6nuyce8g5l+Gcy+jevXsEY4pI0H2y8zAApw/t5nMSf0Ryl/he4FQza0to09AMYDmwGJgDPANcDbwSwQwiIvWqqK5hfWYhC1fsY8WeI3RITmBU7+DsIK4rkvsIlpjZQmAlUA2sAh4CXgeeMbOfe9MeiVQGEZHjmfvYcj7cnku7pHi6dUjma1MGkBAfnB3EdUX0IFnn3F3AXcdM3glMjuTriog0pKC0io925HJSWiqPfD2DHh1S/I7kq2DWn4gE2r925FLr4M4LRwW+BEBDTIhIgJRX1fDhtlz+780tdGmXxPh+nfyO1CKoCEQkMK58ZAnLdh8hzuBPV0wiMaD7BI6lIhCRQNhysIhlu48wd9pAbjhjED06apPQUSoCEYlpldW1vLwqk1tfWAvAjWcOpnuH1ndd4UhSEYhIzPnfNzezOauIvXmlbMsuBmB0n45ceeoAlUA9VAQiElNW78vnvsU7SO/all6pKZx/0lCG9mjPF0f3CtRAck2hIhCRmFBSUc2jH+7ilTUH6JCSwGu3nB6Y6wl8XlpKItKq5ZVUUlhWxc9f38Tbmw7Rt3Mbfn/5BJVAE2hJiUirtXhzNtc9vpzqWocZ3H3hKL4+daDfsVodFYGItDrr9hdw3+LtvLHhIIO6teOm6YMZ1acjo/uk+h2tVVIRiEirsnx3Hjc8sYKiimqmDunK988dzsT+nf2O1aqpCESk1cjML2POAx8D8MTcyZw+VNcqaQ46lkpEWo0PtoauVviXr5+sEmhGKgIRaTU+2JZLz47JTB+uEmhO2jQkIi3emn353PXqBlbvy+fKUwdgZn5HiikqAhFpsfbllfLBtlzuW7yd3OIKrj9jEN8/d5jfsWKOikBEWoTaWscbGw5SXFHNJzsOk11UwZp9+RRVVNM7NYXnb5zC2L66fkAkqAhEpEV4e9Mhbn5qJQAdUhIY1rMDpw3pys3ThzCqT0ddOyCCVAQi0iK8sf4gndom8sq8qXTvkEzbJH08RYuWtIj4pqyyhgUf76a4vJo3Nhzk/DG9GdC1nd+xAkdFICK+eWlVJr/8x2YAxvVN5TtnD/U5UTCpCETEFzW1jldWZzKga1sWf386cXE6JNQv2vsiIr746p8/YcmuPM4Z2VMl4DMVgYhE3frMApbsymPqkK7cNH2w33ECT5uGRCTqHv3XLlIS4/jTFZNIbZPod5zA0xqBiERNUXkV855ayYsrM7lqSrpKoIXQGoGIRExtrWPl3iP8cfF2CsqqOFxcyd68Us4e2ZObtUmoxVARiEhEOOe47vHlvLM5m85tExmTlkr75AR++MXhXDiuj9/xpA4VgYg0yd7DpRwprcQR+rAPfYft2UUUlVd/Ot+OnGLe2ZzNlyak8cPzhtM7tY1vmaVhKgIRCdvu3BK+8Jv3qHWNz2sGXz2lPz+bPYZ4HR7aoqkIRCRsr6/LotbBvZePp31yAmZgGBj069yGnh1TPp03IS6ONknxPqaVcKkIRKRR2YXlPP7xHl5YuZ/x/Toxe3ya35GkGenwURFp1IPv7+SPi7eTkhjPbeeP8DuONDOtEYhIg2pqHX9bc4BzRvXkz1dl+B1HIkBFICL12nigkPsWbyeroIzsogoundTX70gSIdo0JCL1euTDXSzadIjSyhrumDWKc0f38juSREhE1wjMrBPwMDAGcMC1wBbgWSAd2A38l3PuSCRziEjTZBeV89Kq/Vw0rg+/u3yC33EkwiK9RnAv8IZzbgQwDtgE3Aa845wbCrzj3ReRFqKwvIppv1xMrYNzRmktIAgiVgRm1hE4A3gEwDlX6ZzLB2YDC7zZFgAXRyqDiDTdiyv2U1lTyw+/OJzzxqgIgiCSawSDgBzgL2a2ysweNrN2QE/nXBaA971HfU82s+vNbLmZLc/JyYlgTBE5qqqmlr98tJtx/Tox76whOiM4ICJZBAnAROB+59wEoIQmbAZyzj3knMtwzmV07949UhlFBCivquGnf9vAxP9exJ7DpXx7xhC/I0kURXJn8X5gv3NuiXd/IaEiOGRmvZ1zWWbWG8iOYAYRacQLK/ZzxyvrKa2s4eyRPRjdJ5Wzhte7oi4xKmJF4Jw7aGb7zGy4c24LMAPY6H1dDfzS+/5KpDKISOOeXb6P0soaHvjaJO0TCKhIn1D2LeApM0sCdgLXENoc9ZyZzQX2ApdGOIOIHEdpZTWr9h7hhjMHqQQCLKJF4JxbDdR3TvqMSL6uiIRn0cZDVNU4pg7u5ncU8ZGGmBAJmJpax968Uua/uJZPduYxuk9Hpgzu6ncs8ZGKQCRAFm/J5pa/rqKoopq2SfFcNWUAN5w5mMR4jTYTZCoCkQBYufcIP311A2szCxjcvT3fndyf88b0ok8nXT5SVAQigfDAeztYs7+A604fyHfOHka7ZP3qy2f0bhCJcTlFFby7OZsbzhjE/Jkj/Y4jLZA2DIrEuJdXZVJd67g0Q9cTkPqpCERi2MMf7OQXf9/ExP6dGNKjg99xpIVSEYjEqJKKau5ZtJXkhDh+8MXhfseRFkz7CERi0MGCch75cCcllTU8f+MUTk7v4nckacFUBCIxpryqhhm/eY+SyhpmntSLjAGd/Y4kLZyKQCTGbD1UREllDVdNGcBdF47GTNcUkIZpH4FIjFmfWQjAdacP0oVlJCwqApEYs/5AAR1TEujbWWcNS3hUBCIxZvXefMakpWqTkIRNRSASQ/JKKtmYVciUQRpNVMKnIhCJERXVNdy6cC0A04bq+gISPhWBSIx4Y/1B3t50iI4pCZyUlup3HGlFVAQiMWLprjwS4oylt59Ngq4vIE2gd4tIjFix5whTBnclJTHe7yjSyoRdBGY2zcyu8W53N7OBkYslIk2RmV/GlkNFZAzQUBLSdGEVgZndBfwImO9NSgSejFQoEQnfij15zLn/IxLj4pijoablBIS7RnAJcBFQAuCcOwBoTFuRFuDP7+8iq6CcW2YMIU2XnpQTEG4RVDrnHOAAzKxd5CKJSFOsyyzggrG9+eYXhvodRVqpcIvgOTN7EOhkZtcBbwN/jlwsEQnHkZJKMvPLdLiofC5hjT7qnPs/MzsHKASGA3c65xZFNJmINGpdZgGAikA+l0aLwMzigTedc2cD+vAXaUGW7sojPs4Y21dFICeu0U1DzrkaoNTM9E4TaWE+2pHL2L6pdEhJ9DuKtGLhXpimHFhnZovwjhwCcM7dEpFUItKg6ppafrhwLSv35jPvrMF+x5FWLtwieN37EpEW4P73dvDSqkzOGNadyzL6+x1HWrlwdxYvMLMkYJg3aYtzripysUSkIa+uOcCUQV15/NrJfkeRGBBWEZjZdGABsBswoJ+ZXe2cez9y0UTkWNU1tew/Usa27GLmTNJZxNI8wt009BvgXOfcFgAzGwY8DUyKVDAR+cyWg0X8cfF2PtiWQ35paGVc1xyQ5hJuESQeLQEA59xWM9NhCiJRUF5Vw81PrWBHTgnnjOpJxoDOdO+QzKjeHf2OJjEi3CJYbmaPAE94968AVkQmkogctTOnmF+/sYUdOSUsuHYyZw7r7nckiUHhFsFNwDzgFkL7CN4H/hSpUCJB9vTSvXy04zBF5VV8sC2XmlrH5Sf3UwlIxIRbBAnAvc6538KnZxsnRyyVSADtzCnmm39dxcasQnqnptAxJZFrTkvny5P6MqKXBvuVyAm3CN4BzgaKvfttgLeA0xp7olcay4FM59ws74I2zwBdgJXAlc65yqYGF4k1f/5gFxuzCrlmajq3zxypy01K1IT7Tktxzh0tAbzbbcN87reBTXXu/wq4xzk3FDgCzA3z3xGJWYXlVbyyOpNLJ/XlrgtHqwQkqsJ9t5WY2cSjd8wsAyhr7Elm1he4AHjYu2/AF4CF3iwLgIubElgk1jjneOxfuymtrOFrpw7wO44EULibhr4DPG9mBwhdnKYPcFkYz/sdcCufXc2sK5DvnKv27u8H0up7opldD1wP0L+/TqGX2LPtUBHrDxSw4KM9rN6Xz0lpqYzr18nvWBJADRaBmZ0M7HPOLTOzEcANwJeAN4BdjTx3FpDtnFvhnZkMoSOOjuXqe75z7iHgIYCMjIx65xFprQrKqvjSnz6iqKKabu2T+P45w7hgbG+/Y0lANbZG8CChncQAU4AfA98CxhP6kJ7TwHOnAheZ2UwgBehIaA2hk5kleGsFfYEDJx5fpHUprqjm1oVr2JlTQlFFNfdePp6ZJ/UmUfsExEeNvfvinXN53u3LgIeccy845+4AhjT0ROfcfOdcX+dcOnA58K5z7gpgMZ8VyNXAKyecXqSVWbTxIH9fd5CkhDhuPHMws8enqQTEd42tEcTX+et9Bt42+zCfezw/Ap4xs58Dq4BHTvDfEWl13t6UTbf2ybx881Ti4urbUioSfY19mD8N/NPMcgkdJfQBgJkNAQrCfRHn3HvAe97tnYDGzpXA2ZlTzOLN2Vw4to9KQFqUBovAOfcLM3sH6A285Zw7utM2jtC+AhEJw1NL9nD7S+tpkxjPvLMa3KoqEnWNbt5xzn1Sz7StkYkjEntqax0Pf7CLDskJPPGNU+jfNdxzMUWi40S384tIA5xz1Hrrz6+vy2JXbgn3XDaO8TpPQFogFYFIMztYUM6X7/+IzPzPTr4/KS2VC8f28TGVyPGpCESakXOO+S+u5XBJBd+eMZT4OCM+zvjSxDSNHyQtlopApJnsyCnmB8+vYdXefO6cNYprpw30O5JIWFQEIs2gvKqGm59cyZZDRVx56gC+flq635FEwqYiEPmcFm/J5tdvbGHLoSIeu+Zkpg/v4XckkSZREYh8Dh9tz2XuY8tISYzn1vOGqwSkVVIRiJyAIyWVrD9QwG/e2krv1DYs+t4ZtE3Sr5O0TnrnipyAW19Yy6KNhwD479mjVQLSqundK9JEFdU1fLgtlwvH9WHutIGMTUv1O5LI56IiEGmC6ppavvfcGsqqapg9ro/OFJaYoDNcRJrg452HeX1tFvFxxpTBXf2OI9IsVAQiTbBqbz5msOrOc2iXrBVqiQ0qApEmWLX3CEN7tKdjSqLfUUSajYpAJAxZBWX84Z1tLNmVx8T+nf2OI9KstG4r0ojDxRXMuf9jMvPLGNazPTdNH+x3JJFmpSIQacQzy/aRmV/GczdM4eT0zpjpMpMSW1QEIsdRUV3DH9/dzh/e3c6UQV2ZPLCL35FEIkJFIHKM7dnFXPPYUvblhS4sMyatI98+e6jPqUQiR0UgUkdtreOmJ1dQWFbNTdMHMzm9C2eN0EByEttUBCKeovIqfvLyerZlF3Pv5eOZPT7N70giUaHDR0U8Cz7azSurDzCoWzsuOKm333FEokZrBBJ4NbWOA/llPPHJHib278TzN55GfJyODJLgUBFIoB3IL2PuguVsyioE4I5Zo1QCEjgqAgmUmlrHS6syKSiroqqmltfXZrEvr5T5549gyuCujO2r0UQleFQEEigvr8rkB8+v+fR+UkIcv7tsPDO1T0ACTEUgMa+grIpf/mMzew6XsPVQEcN6tuf5G04jMcFIjI8jMV7HTEiw6TdAYt797+3g6aV7KamoZlD39tx+wShS2ybSNilBJSCC1ggkxt32wlqeWbaPC8b25r6vTvQ7jkiLpD+HJGZVVNfw8upM0ru25Wezx/gdR6TFUhFIzFq7v4DyqlrmzxxJl3ZJfscRabFUBBKz3t50CDM4RaOGijRI+wgk5uSXVjLvryv51/bDzBrbm05ttTYg0hAVgcSUfXml3PHKev61/TBzJvXljlmj/I4k0uJFrAjMrB/wONALqAUecs7da2ZdgGeBdGA38F/OuSORyiHB8dcle/nxS+swg19cMoYrThngdySRViGS+wiqge8750YCpwLzzGwUcBvwjnNuKPCOd1/kcykoq+JXb2xmUPd2vHzzVJWASBNErAicc1nOuZXe7SJgE5AGzAYWeLMtAC6OVAYJhppax6Mf7qKgrIrfXz6Bcf00XpBIU0RlH4GZpQMTgCVAT+dcFoTKwsx0+Sc5IbW1joUr9nPnq+spr6plcnoXxqSl+h1LpNWJeBGYWXvgBeA7zrlCs/CG+DWz64HrAfr37x+5gNIqVVTXcP7vPmBnbgnj+nXionF9mKFLSoqckIgWgZklEiqBp5xzL3qTD5lZb29toDeQXd9znXMPAQ8BZGRkuEjmlNZn4Yr97Mwt4SuT+/HjmSPpkJLodySRViti+wgs9Kf/I8Am59xv6zz0KnC1d/tq4JVIZZDYU1VTy8IV+/nlPzYzsX8n/ueSk1QCIp9TJNcIpgJXAuvMbLU37cfAL4HnzGwusBe4NIIZJIYUlldxy9OreG9LDh1SEvj1nHGEu6lRRI4vYkXgnPsQON5v6YxIva7EjvKqGl5Zncn6zEL+sf4gucUVxBn85IKRXHZyP60JiDQTnVksLU5ZZQ1PfrKHZ5btZUdOCQlxxlkjejCmTyqnDurCKYO6+h1RJKaoCKTFeH9rDtc/sZzK6lpqHXRtl8SDV07i3FE9tQlIJIJUBNJivLw6k6T4OOZOG8jpQ7tzqv7yF4kKFYG0CLW1jve35jB9eA9++MURfscRCRQVgfhu7+FSnlyyh9ziSmaM1ElhItGmIhDfLNp4iFfXHOBvaw4AMG1IN2aN7eNzKpHgURGIL7KLyrnu8eUAXHf6QC4Y24fRfToSH6edwiLRpiKQiHPOsWZ/AaUV1Z9Oe29rDgCvfWuaBooT8ZmKQCIqq6CM/31zCy+uzPyPx8akdVQJiLQAKgKJiKLyKjYfLOLax5ZRVF7NlyamcVlGv3+bZ3CP9j6lE5G6VATS7P65NYfrHg+dGNa1XRKPXXMyZw7rrpPCRFooFYE0m+qaWpbsymPeUyvp17kN884awlnDe9C5XZLf0USkASoCabL80kpKK2v459YcsgsrqHWO0spqXlqVSW5xJe2S4nnsmsn069LW76giEgYVgTTJkp2HueyhT/5julnoPIDZ49OYNKCzSkCkFVERSJM8u2wfHVISuO38EYzo1YEJ/Tpjhrb/i7RiKgI5rrX783ltbdan96tqanl9XRaXTEjjilMG+JhMRJqTikDq5Zzjh8+vZXtOMUnxn13RNCO9M98+e6iPyUSkuakI5D/kFlcw6/cfcrCwnN9cOo4vT+rrdyQRiSAVgZBdVM6GA4Wf3v/HuiwOFpbz1VP6c9F4DQInEutUBMI3/7qKpbvy/m3arLG9+Z9LTvIpkYhEk4og4HKKKli2O4+rpgzgkglpn04f0aujj6lEJJpUBAH36poDOAdfmdyfkb314S8SRCqCgLr37W0s2nSQbYeKmTKoKyN6dfA7koj4JK7xWSSWlFXW8NaGg9zz9laqaxznj+nFPZeN1wlhIgGmNYIAyS4qZ+a9H5BbXElSfByPXTOZXqkpfscSEZ+pCAJi44FCvvvsanKLK/nZ7NFMGtBFJSAigIogMH722ka2HCri2qkDuXJKut9xRKQFUREEwN7DpXy88zDfP2cY35qh4SFE5N+pCCKosrqWvJJK8ssq+Wj7YWqdO6F/p7SyhvWZBSf8/G3ZxaQkxmmoCBGpl4rgBDnneGvjIXKLK3hvSw4b6wzRcNQR7wIuzWFQt3a0SYo/oed2bpvEzy8eQ59ObZoli4jEFhVBmIrKq1ifGfqwdzge/XAXb2/KBqBdUjznju5FfNy/H4LZPjmBoT3bkxgfx9Qh3eiYcmKLO86Mdsn6UYlIZOjTpQG1tY6FK/az63AJf1+XxZ7DpZ8+lhhv3DlrFLPG9qZDSuIJ/7UuIuI3FcFxOOeY/+I6nl2+j8R4o1v7ZO776kS6eBdi79u5jS7HKCIxQUVQR1VNLUt25vGz1zay63AJldW1zDtrMD84d7jOvBWRmKUi8BSVV3H1o0tZuTef1DaJXHNaOn07t+GKUwaoBEQkpqkIPA9/sIuVe/P5yQUjmXlSbx1hIyKB4cugc2Z2npltMbPtZnabHxnquv7x5dz7zjbOGdWTb5w+SCUgIoES9SIws3jgPuB8YBTwFTMbFe0cR320I5e3Nh5i8sAu3DnLtxgiIr7xY9PQZGC7c24ngJk9A8wGNkYzxBvrD7LhQAEvrcqkT2oKj187mZREHQIqIsHjRxGkAfvq3N8PnBKJF7r9pXX/cS1egBrn2JlTghl0aZvEw1dnqAREJLD8KIL6DsH5j0F0zOx64HqA/v37n9AL9enUhqE929f72EXj+vDNs4aQEK9r84hIsPlRBPuBfnXu9wUOHDuTc+4h4CGAjIyMExptbd5ZQ07kaSIigeLHn8PLgKFmNtDMkoDLgVd9yCEiIviwRuCcqzazbwJvAvHAo865DdHOISIiIb6cUOac+zvwdz9eW0RE/p32lIqIBJyKQEQk4FQEIiIBpyIQEQk4FYGISMCZcyd0rlZUmVkOsOcEntoNyG3mOM2hpeaClptNuZpGuZomVnMNcM51b2ymVlEEJ8rMljvnMvzOcayWmgtabjblahrlapqg59KmIRGRgFMRiIgEXKwXwUN+BziOlpoLWm425Woa5WqaQOeK6X0EIiLSuFhfIxARkUbEbBGY2XlmtsXMtpvZbT5n2W1m68xstZkt96Z1MbNFZrbN+945CjkeNbNsM1tfZ1q9OSzk997yW2tmE6Oc624zy/SW2Wozm1nnsfleri1m9sUI5upnZovNbJOZbTCzb3vTfV1mDeTydZmZWYqZLTWzNV6un3rTB5rZEm95PesNP4+ZJXv3t3uPp0ciVyPZHjOzXXWW2XhvejTf//FmtsrMXvPuR395Oedi7ovQ8NY7gEFAErAGGOVjnt1At2Om/Rq4zbt9G/CrKOQ4A5gIrG8sBzAT+AehK8qdCiyJcq67gR/UM+8o7+eZDAz0fs7xEcrVG5jo3e4AbPVe39dl1kAuX5eZ9/9u791OBJZ4y+E54HJv+gPATd7tm4EHvNuXA89G8D12vGyPAXPqmT+a7//vAX8FXvPuR315xeoawWRgu3Nup3OuEngGmO1zpmPNBhZ4txcAF0f6BZ1z7wPHXsT5eDlmA4+7kE+ATmbWO4q5jmc28IxzrsI5twvYTujnHYlcWc65ld7tImAToWtu+7rMGsh1PFFZZt7/u9i7m+h9OeALwEJv+rHL6+hyXAjMMLP6LmUbyWzHE5WfpZn1BS4AHvbuGz4sr1gtgjRgX537+2n4FyXSHPCWma2w0LWYAXo657Ig9IsN9PAp2/FytIRl+E1vtfzROpvOfMnlrYZPIPSXZItZZsfkAp+XmbeZYzWQDSwitPaR75yrrue1P83lPV4AdI1ErvqyOeeOLrNfeMvsHjNLPjZbPbmb0++AW4Fa735XfFhesVoE9bWkn4dHTXXOTQTOB+aZ2Rk+ZgmX38vwfmAwMB7IAn7jTY96LjNrD7wAfMc5V9jQrPVMi1i2enL5vsycczXOufGErkU+GRjZwGtHdXkdm83MxgDzgRHAyUAX4EfRymZms4Bs59yKupMbeN2IZYrVItgP9Ktzvy9wwKcsOOcOeN+zgZcI/YIcOrqq6X3P9ine8XL4ugydc4e8X9xa4M98tikjqrnMLJHQh+1TzrkXvcm+L7P6crWUZeZlyQfeI7R9vZOZHb0aYt3X/jSX93iz0DbdAAAD0ElEQVQq4W8ibI5s53mb2ZxzrgL4C9FdZlOBi8xsN6HN118gtIYQ9eUVq0WwDBjq7X1PIrRj5VU/gphZOzPrcPQ2cC6w3stztTfb1cArfuRrIMerwFXe0ROnAgVHN4dEwzHbYy8htMyO5rrcO4JiIDAUWBqhDAY8Amxyzv22zkO+LrPj5fJ7mZlZdzPr5N1uA5xNaP/FYmCON9uxy+vocpwDvOu8PaFRyra5TqEboW3xdZdZRH+Wzrn5zrm+zrl0Qp9R7zrnrsCP5dVce51b2hehvf5bCW2jvN3HHIMIHbGxBthwNAuhbXvvANu8712ikOVpQpsMqgj9dTH3eDkIrYbe5y2/dUBGlHM94b3uWu8XoHed+W/3cm0Bzo9grmmEVr3XAqu9r5l+L7MGcvm6zICxwCrv9dcDd9b5HVhKaCf180CyNz3Fu7/de3xQBH+Wx8v2rrfM1gNP8tmRRVF7/3uvN53PjhqK+vLSmcUiIgEXq5uGREQkTCoCEZGAUxGIiAScikBEJOBUBCIiAacikMAws5o6o0yutkZGpTWzG83sqmZ43d1m1u3z/jsikaLDRyUwzKzYOdfeh9fdTeg49Nxov7ZIOLRGIIHn/cX+KwuNV7/UzIZ40+82sx94t28xs43e4GTPeNO6mNnL3rRPzGysN72rmb3ljTH/IHXGiDGzr3mvsdrMHvQGQou30Lj46y103Yrv+rAYJMBUBBIkbY7ZNHRZnccKnXOTgT8SGu/lWLcBE5xzY4EbvWk/BVZ5034MPO5Nvwv40Dk3gdAZvv0BzGwkcBmhQQjHAzXAFYQGiUtzzo1xzp1EaMwbkahJaHwWkZhR5n0A1+fpOt/vqefxtcBTZvYy8LI3bRrwZQDn3LvemkAqoQvtfMmb/rqZHfHmnwFMApZ5w8i3ITRg3d+AQWb2B+B14K0T/y+KNJ3WCERC3HFuH3UBobFnJgErvNEfGxoWuL5/w4AFzrnx3tdw59zdzrkjwDhCI2LOw7tIiUi0qAhEQi6r8/3jug+YWRzQzzm3mNBFRDoB7YH3CW3awcymA7kudF2AutPPB45eIOYdYI6Z9fAe62JmA7wjiuKccy8AdxC6bKdI1GjTkARJG+8KVUe94Zw7eghpspktIfTH0VeOeV488KS32ceAe5xz+WZ2N/AXM1sLlPLZEME/BZ42s5XAP4G9AM65jWb2E0JXq4sjNNrqPKDM+3eO/mE2v/n+yyKN0+GjEng6vFOCTpuGREQCTmsEIiIBpzUCEZGAUxGIiAScikBEJOBUBCIiAaciEBEJOBWBiEjA/T+RFXkToSEImgAAAABJRU5ErkJggg==
+<img src="data:image/png;base64,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
 "
 >
 </div>
@@ -13972,15 +12137,23 @@ episodes: 400	avg: 78.68
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="5.-Testing-a-smart-agent">5. Testing a smart agent<a class="anchor-link" href="#5.-Testing-a-smart-agent">&#182;</a></h3>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">env</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
